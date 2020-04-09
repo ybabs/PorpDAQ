@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Switch)(type Legacy)(uri ${KIPRJMOD}/Switch.lib)(options "")(descr ""))
+  (lib (name hydrophone_stm32_board-rescue)(type Legacy)(uri ${KIPRJMOD}/hydrophone_stm32_board-rescue.lib)(options "")(descr ""))
+)

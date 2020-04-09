@@ -1,0 +1,112 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 142-0701-851-SamacSys_Parts-stm32_board-rescue
+#
+DEF 142-0701-851-SamacSys_Parts-stm32_board-rescue J 0 30 Y Y 1 F N
+F0 "J" 350 800 50 H V L CNN
+F1 "142-0701-851-SamacSys_Parts-stm32_board-rescue" 350 700 50 H V L CNN
+F2 "142-0701-851" 350 600 50 H I L CNN
+F3 "http://www.belfuse.com/resources/Johnson/drawings/dr-1420701851.pdf" 350 500 50 H I L CNN
+F4 "SMA 50 Ohm End Launch Jack Receptacle - Tab Contact" 350 400 50 H I L CNN "Description"
+F5 "Cinch" 350 200 50 H I L CNN "Manufacturer_Name"
+F6 "142-0701-851" 350 100 50 H I L CNN "Manufacturer_Part_Number"
+F7 "530-142-0701-851" 350 0 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-142-0701-851" 350 -100 50 H I L CNN "Mouser Price/Stock"
+F9 "8857532" 350 -200 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/8857532" 350 -300 50 H I L CNN "RS Price/Stock"
+F11 "70090523" 350 -400 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/johnson-cinch-connectivity-solutions-142-0701-851/70090523/" 350 -500 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 -100 600 300 600 300 200 -100 200 -100 600 N
+X 1 1 0 0 200 U 50 50 0 0 W
+X 2 2 100 0 200 U 50 50 0 0 I
+X 3 3 200 0 200 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# AD8031ARZ-SamacSys_Parts
+#
+DEF AD8031ARZ-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AD8031ARZ-SamacSys_Parts" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/AD8031ARZ.pdf" 950 0 50 H I L CNN
+F4 "Analog Devices AD8031ARZ Op Amp Rail-Rail, 5 V, 8-Pin SOIC" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AD8031ARZ" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-AD8031ARZ" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8031ARZ" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "0412658P" 950 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/0412658P" 950 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X NC_1 1 0 0 200 R 50 50 0 0 U
+X -IN 2 0 -100 200 R 50 50 0 0 U
+X +IN 3 0 -200 200 R 50 50 0 0 U
+X -VS 4 0 -300 200 R 50 50 0 0 U
+X NC_2 5 1100 -300 200 L 50 50 0 0 U
+X OUT 6 1100 -200 200 L 50 50 0 0 U
+X +VS 7 1100 -100 200 L 50 50 0 0 U
+X NC_3 8 1100 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# PJS008-2003-1-SamacSys_Parts-stm32_board-rescue
+#
+DEF PJS008-2003-1-SamacSys_Parts-stm32_board-rescue J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "PJS008-2003-1-SamacSys_Parts-stm32_board-rescue" 750 200 50 H V L CNN
+F2 "PJS00820031" 750 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/448/yamaichi_electronics_yeui-s-a0004672260-1-1694640.pdf" 750 0 50 H I L CNN
+F4 "micro SD push/push reversed type,  with positionin" 750 -100 50 H I L CNN "Description"
+F5 "1.85" 750 -200 50 H I L CNN "Height"
+F6 "Yamaichi" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PJS008-2003-1" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "945-PJS008-2003-1" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=945-PJS008-2003-1" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 I
+X 4 4 0 -300 200 R 50 50 0 0 W
+X 5 5 0 -400 200 R 50 50 0 0 I
+X 6 6 0 -500 200 R 50 50 0 0 W
+X 7 7 0 -600 200 R 50 50 0 0 B
+X 8 8 0 -700 200 R 50 50 0 0 B
+X MH1 MH1 900 0 200 L 50 50 0 0 U
+X MH2 MH2 900 -100 200 L 50 50 0 0 U
+X SH1 SH1 900 -200 200 L 50 50 0 0 P
+X SH2 SH2 900 -300 200 L 50 50 0 0 P
+X SH3 SH3 900 -400 200 L 50 50 0 0 P
+X SH4 SH4 900 -500 200 L 50 50 0 0 P
+X SW1 SW1 900 -600 200 L 50 50 0 0 P
+X SW2 SW2 900 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TL1105CF160Q-SamacSys_Parts
+#
+DEF TL1105CF160Q-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "TL1105CF160Q-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TL1105CF160Q" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TL1105CF160Q.pdf" 650 0 50 H I L CNN
+F4 "Tactile Switches 6X6X8MM 160GF" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "E-Switch" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL1105CF160Q" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-TL1105C" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-TL1105C" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

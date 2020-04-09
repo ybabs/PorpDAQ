@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LT1528CQ
+#
+DEF LT1528CQ U 0 40 Y Y 1 L N
+F0 "U" 715 360 50 H V L BNN
+F1 "LT1528CQ" 690 259 50 H V L BNN
+F2 "DDPAK-5_Q" 0 0 50 H I L BNN
+F3 "Linear Technology" 0 0 50 H I L BNN
+F4 "LT1528CQ" 0 0 50 H I L BNN
+F5 "Copyright C 2016 Accelerated Designs. All rights reserved" 0 0 50 H I L BNN
+F6 "LT1528CQND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 300 200 300 -400 N
+P 2 0 0 6 300 -400 1500 -400 N
+P 2 0 0 6 1500 -400 1500 200 N
+P 2 0 0 6 1500 200 300 200 N
+X OUTPUT 1 0 0 300 R 40 40 0 0 O 
+X SENSE 2 0 -100 300 R 40 40 0 0 P 
+X GND_2 3 0 -200 300 R 40 40 0 0 W 
+X *SHDN 4 1800 -200 300 L 40 40 0 0 P 
+X VIN 5 1800 -100 300 L 40 40 0 0 I 
+X GND 6 1800 0 300 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

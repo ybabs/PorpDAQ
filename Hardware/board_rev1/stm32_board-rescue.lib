@@ -1,0 +1,206 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 142-0701-851-SamacSys_Parts
+#
+DEF 142-0701-851-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 350 800 50 H V L CNN
+F1 "142-0701-851-SamacSys_Parts" 350 700 50 H V L CNN
+F2 "142-0701-851" 350 600 50 H I L CNN
+F3 "http://www.belfuse.com/resources/Johnson/drawings/dr-1420701851.pdf" 350 500 50 H I L CNN
+F4 "SMA 50 Ohm End Launch Jack Receptacle - Tab Contact" 350 400 50 H I L CNN "Description"
+F5 "Cinch" 350 200 50 H I L CNN "Manufacturer_Name"
+F6 "142-0701-851" 350 100 50 H I L CNN "Manufacturer_Part_Number"
+F7 "530-142-0701-851" 350 0 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-142-0701-851" 350 -100 50 H I L CNN "Mouser Price/Stock"
+F9 "8857532" 350 -200 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/8857532" 350 -300 50 H I L CNN "RS Price/Stock"
+F11 "70090523" 350 -400 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/johnson-cinch-connectivity-solutions-142-0701-851/70090523/" 350 -500 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 -100 600 300 600 300 200 -100 200 -100 600 N
+X 1 1 0 0 200 U 50 50 0 0 W
+X 2 2 100 0 200 U 50 50 0 0 I
+X 3 3 200 0 200 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# LD39050PU33R-SamacSys_Parts
+#
+DEF LD39050PU33R-SamacSys_Parts PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "LD39050PU33R-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SON95P300X300X100-7N-D" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf" 1050 0 50 H I L CNN
+F4 "STMICROELECTRONICS - LD39050PU33R - LDO, FIXED, 3.3V, 0.5A, DFN-6" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LD39050PU33R" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LD39050PU33R" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-LD39050PU33R" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1961948P" 1050 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1961948P" 1050 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -600 200 -600 200 100 N
+X EN 1 0 0 200 R 50 50 0 0 I
+X GND 2 0 -100 200 R 50 50 0 0 W
+X PG 3 0 -200 200 R 50 50 0 0 O
+X VOUT 4 1200 -200 200 L 50 50 0 0 O
+X NC 5 1200 -100 200 L 50 50 0 0 N
+X VIN 6 1200 0 200 L 50 50 0 0 W
+X PAD 7 600 -800 200 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# LMH6643MAX_NOPB-SamacSys_Parts
+#
+DEF LMH6643MAX_NOPB-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LMH6643MAX_NOPB-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/lmh6643" 1050 0 50 H I L CNN
+F4 "Dual Channel, Low Power, 130MHz, 75mA Rail-to-Rail Output Amplifier" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LMH6643MAX/NOPB" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "926-LMH6643MAX/NOPB" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=926-LMH6643MAX%2FNOPB" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X OUT_A 1 0 0 200 R 50 50 0 0 U
+X -IN_A 2 0 -100 200 R 50 50 0 0 U
+X +IN_A 3 0 -200 200 R 50 50 0 0 U
+X V- 4 0 -300 200 R 50 50 0 0 U
+X +IN_B 5 1200 -300 200 L 50 50 0 0 U
+X -IN_B 6 1200 -200 200 L 50 50 0 0 U
+X OUT_B 7 1200 -100 200 L 50 50 0 0 U
+X V+ 8 1200 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# LT1528CQ#PBF-SamacSys_Parts
+#
+DEF LT1528CQ#PBF-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "LT1528CQ#PBF-SamacSys_Parts" 1350 200 50 H V L CNN
+F2 "5-LEAD-PLASTIC-DD-PAK" 1350 100 50 H I L CNN
+F3 "http://cds.linear.com/docs/en/datasheet/1528fb.pdf" 1350 0 50 H I L CNN
+F4 "Linear Technology LT1528CQ#PBF, LDO Voltage Regulator, 3A, 3.3 V, -15  15 Vin, 5-Pin" 1350 -100 50 H I L CNN "Description"
+F5 "Linear Technology" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F6 "LT1528CQ#PBF" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "584-LT1528CQ#PBF" 1350 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT1528CQ%23PBF" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "7799334P" 1350 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7799334P" 1350 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -500 200 -500 200 100 N
+X OUTPUT 1 0 0 200 R 50 50 0 0 U
+X SENSE 2 0 -100 200 R 50 50 0 0 U
+X GND 3 0 -200 200 R 50 50 0 0 U
+X ~SHDN 4 0 -300 200 R 50 50 0 0 U
+X VIN 5 0 -400 200 R 50 50 0 0 U
+X TAB_(GND) 6 1500 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# NZ2520SB-25.600MHZ-SamacSys_Parts
+#
+DEF NZ2520SB-25.600MHZ-SamacSys_Parts Y 0 30 Y Y 1 F N
+F0 "Y" 1250 300 50 H V L CNN
+F1 "NZ2520SB-25.600MHZ-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "NZ2520SB25600MHZ" 1250 100 50 H I L CNN
+F3 "https://media.digikey.com/PDF/Data%20Sheets/NDK%20PDFs/NZ2520SB.pdf" 1250 0 50 H I L CNN
+F4 "XTAL OSC XO 25.6000MHZ CMOS SMD" 1250 -100 50 H I L CNN "Description"
+F5 "0.9" 1250 -200 50 H I L CNN "Height"
+F6 "NDK" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NZ2520SB-25.600MHZ" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+X STAND-BY 1 0 -100 200 R 50 50 0 0 T
+X GND 2 1400 -100 200 L 50 50 0 0 W
+X OUTPUT 3 1400 0 200 L 50 50 0 0 O
+X VCC 4 0 0 200 R 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# OPA659IDBVR-OPA659IDBVR-preamp-rescue
+#
+DEF OPA659IDBVR-OPA659IDBVR-preamp-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "OPA659IDBVR-OPA659IDBVR-preamp-rescue" 1050 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "Wideband, Unity-Gain Stable, JFET-Input OPERATIONAL AMPLIFIER" 1050 -100 50 H I L CNN "Description"
+F5 "595-OPA659IDBVR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPA659IDBVR" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F8 "OPA659IDBVR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X OUTPUT 1 0 0 200 R 50 50 0 0 U
+X -VS 2 0 -100 200 R 50 50 0 0 U
+X POS 3 0 -200 200 R 50 50 0 0 U
+X NEG 4 1200 -100 200 L 50 50 0 0 U
+X +VS 5 1200 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# PJS008-2003-1-SamacSys_Parts
+#
+DEF PJS008-2003-1-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "PJS008-2003-1-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "PJS00820031" 750 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/448/yamaichi_electronics_yeui-s-a0004672260-1-1694640.pdf" 750 0 50 H I L CNN
+F4 "micro SD push/push reversed type,  with positionin" 750 -100 50 H I L CNN "Description"
+F5 "1.85" 750 -200 50 H I L CNN "Height"
+F6 "Yamaichi" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PJS008-2003-1" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "945-PJS008-2003-1" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=945-PJS008-2003-1" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 I
+X 4 4 0 -300 200 R 50 50 0 0 W
+X 5 5 0 -400 200 R 50 50 0 0 I
+X 6 6 0 -500 200 R 50 50 0 0 W
+X 7 7 0 -600 200 R 50 50 0 0 B
+X 8 8 0 -700 200 R 50 50 0 0 B
+X MH1 MH1 900 0 200 L 50 50 0 0 U
+X MH2 MH2 900 -100 200 L 50 50 0 0 U
+X SH1 SH1 900 -200 200 L 50 50 0 0 P
+X SH2 SH2 900 -300 200 L 50 50 0 0 P
+X SH3 SH3 900 -400 200 L 50 50 0 0 P
+X SH4 SH4 900 -500 200 L 50 50 0 0 P
+X SW1 SW1 900 -600 200 L 50 50 0 0 P
+X SW2 SW2 900 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TL1105CF160Q-SamacSys_Parts
+#
+DEF TL1105CF160Q-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "TL1105CF160Q-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TL1105CF160Q" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TL1105CF160Q.pdf" 650 0 50 H I L CNN
+F4 "Tactile Switches 6X6X8MM 160GF" 650 -100 50 H I L CNN "Description"
+F5 "8" 650 -200 50 H I L CNN "Height"
+F6 "E-Switch" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL1105CF160Q" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-TL1105C" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-TL1105C" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name OPA659IDBVR)(type Legacy)(uri ${KIPRJMOD}/library/LIB_OPA659IDBVR/OPA659IDBVR.mod)(options "")(descr ""))
+)

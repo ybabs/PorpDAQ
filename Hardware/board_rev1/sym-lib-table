@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name stm32_board-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32_board-rescue.lib)(options "")(descr ""))
+  (lib (name OPA659IDBVR)(type Legacy)(uri ${KIPRJMOD}/library/LIB_OPA659IDBVR/OPA659IDBVR.lib)(options "")(descr ""))
+  (lib (name AD8031ARZ-REEL)(type Legacy)(uri ${KIPRJMOD}/library/AD8031ARZ/AD8031ARZ-REEL.lib)(options "")(descr ""))
+)

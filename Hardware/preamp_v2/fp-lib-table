@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Connector_AMASS)(type KiCad)(uri ${KIPRJMOD}/library/Connector_AMASS.pretty)(options "")(descr ""))
+  (lib (name OPA659IDBVR)(type Legacy)(uri ${KIPRJMOD}/library/LIB_OPA659IDBVR/OPA659IDBVR.mod)(options "")(descr ""))
+  (lib (name SMA-J-P-H-ST-EM1)(type KiCad)(uri ${KIPRJMOD}/library/SMA-J-P-H-ST-EM1)(options "")(descr ""))
+  (lib (name LMH6643MA)(type KiCad)(uri ${KIPRJMOD}/library/LMH6643MA)(options "")(descr ""))
+  (lib (name LT1528CQ)(type KiCad)(uri ${KIPRJMOD}/library/LT1528CQ)(options "")(descr ""))
+)

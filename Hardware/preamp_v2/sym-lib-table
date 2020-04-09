@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name SMA-J-P-H-ST-EM1)(type Legacy)(uri ${KIPRJMOD}/library/SMA-J-P-H-ST-EM1/SMA-J-P-H-ST-EM1.lib)(options "")(descr ""))
+  (lib (name LMH6643MA)(type Legacy)(uri ${KIPRJMOD}/library/LMH6643MA/LMH6643MA.lib)(options "")(descr ""))
+  (lib (name preamp-rescue)(type Legacy)(uri ${KIPRJMOD}/preamp-rescue.lib)(options "")(descr ""))
+  (lib (name LT1528CQ)(type Legacy)(uri ${KIPRJMOD}/library/LT1528CQ/LT1528CQ.lib)(options "")(descr ""))
+)
