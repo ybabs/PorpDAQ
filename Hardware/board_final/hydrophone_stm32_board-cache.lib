@@ -62,24 +62,26 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x03
+# Connector_Generic_Conn_01x04
 #
-DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
+S -50 -195 0 -205 1 1 6 N
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
 S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
+S -50 150 50 -250 1 1 10 f
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -115,6 +117,39 @@ X Pin_6 6 300 0 150 L 50 50 1 1 P
 X Pin_7 7 -200 -100 150 R 50 50 1 1 P
 X Pin_8 8 300 -100 150 L 50 50 1 1 P
 X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Micro_SD_Card
+#
+DEF Connector_Micro_SD_Card J 0 40 Y Y 1 F N
+F0 "J" -650 600 50 H V C CNN
+F1 "Connector_Micro_SD_Card" 650 600 50 H V R CNN
+F2 "" 1150 300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ microSD*
+$ENDFPLIST
+DRAW
+S -300 -375 -200 -425 0 1 0 F
+S -300 -275 -200 -325 0 1 0 F
+S -300 -175 -200 -225 0 1 0 F
+S -300 -75 -200 -125 0 1 0 F
+S -300 25 -200 -25 0 1 0 F
+S -300 125 -200 75 0 1 0 F
+S -300 225 -200 175 0 1 0 F
+S -300 325 -200 275 0 1 0 F
+P 6 0 1 10 650 500 650 550 -750 550 -750 -650 650 -650 650 -450 N
+P 11 0 1 10 -350 -450 -350 350 -50 350 100 500 150 500 150 450 250 450 300 500 800 500 800 -450 -350 -450 f
+X DAT2 1 -900 300 150 R 50 50 1 1 B
+X DAT3/CD 2 -900 200 150 R 50 50 1 1 B
+X CMD 3 -900 100 150 R 50 50 1 1 I
+X VDD 4 -900 0 150 R 50 50 1 1 W
+X CLK 5 -900 -100 150 R 50 50 1 1 I
+X VSS 6 -900 -200 150 R 50 50 1 1 W
+X DAT0 7 -900 -300 150 R 50 50 1 1 B
+X DAT1 8 -900 -400 150 R 50 50 1 1 B
+X SHIELD 9 800 -600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -156,26 +191,24 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Crystal_GND24_Small
+# Device_Crystal
 #
-DEF Device_Crystal_GND24_Small Y 0 40 Y N 1 F N
-F0 "Y" 50 175 50 H V L CNN
-F1 "Device_Crystal_GND24_Small" 50 100 50 H V L CNN
+DEF Device_Crystal Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "Device_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
 DRAW
-S -30 -60 30 60 0 1 0 N
-P 2 0 1 15 -50 -30 -50 30 N
-P 2 0 1 15 50 -30 50 30 N
-P 4 0 1 0 -50 -50 -50 -75 50 -75 50 -50 N
-P 4 0 1 0 -50 50 -50 75 50 75 50 50 N
-X 1 1 -100 0 50 R 30 50 1 1 P
-X 2 2 0 -100 25 U 30 50 1 1 P
-X 3 3 100 0 50 L 30 50 1 1 P
-X 4 4 0 100 25 D 30 50 1 1 P
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -491,35 +524,6 @@ S -200 -200 200 75 0 1 10 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VO 2 300 0 100 L 50 50 1 1 w
 X VI 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_47352-1001
-#
-DEF SamacSys_Parts_47352-1001 J 0 30 Y Y 1 F N
-F0 "J" 1250 300 50 H V L CNN
-F1 "SamacSys_Parts_47352-1001" 1250 200 50 H V L CNN
-F2 "47352-1001" 1250 100 50 H I L CNN
-F3 "http://www.molex.com/pdm_docs/sd/473521001_sd.pdf" 1250 0 50 H I L CNN
-F4 "Molex 47388 Series 8 Way Right Angle Micro SD Memory Card Connector with Solder Termination" 1250 -100 50 H I L CNN "Description"
-F5 "Molex" 1250 -300 50 H I L CNN "Manufacturer_Name"
-F6 "47352-1001" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
-F7 "538-47352-1001" 1250 -500 50 H I L CNN "Mouser Part Number"
-F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-47352-1001" 1250 -600 50 H I L CNN "Mouser Price/Stock"
-F9 "7206016P" 1250 -700 50 H I L CNN "RS Part Number"
-F10 "http://uk.rs-online.com/web/p/products/7206016P" 1250 -800 50 H I L CNN "RS Price/Stock"
-F11 "70374601" 1250 -900 50 H I L CNN "Allied_Number"
-F12 "https://www.alliedelec.com/molex-incorporated-47352-1001/70374601/" 1250 -1000 50 H I L CNN "Allied Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
-X DATA2 1 0 0 200 R 50 50 0 0 U
-X CD/DATA3 2 0 -100 200 R 50 50 0 0 U
-X CMD 3 0 -200 200 R 50 50 0 0 U
-X VDD 4 0 -300 200 R 50 50 0 0 U
-X CLK 5 1400 0 200 L 50 50 0 0 U
-X VSS 6 1400 -100 200 L 50 50 0 0 U
-X DATA0 7 1400 -200 200 L 50 50 0 0 U
-X DATA1 8 1400 -300 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #

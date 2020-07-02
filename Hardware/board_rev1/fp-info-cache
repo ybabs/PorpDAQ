@@ -1,4 +1,4 @@
-16316856570367420
+16321638287873834
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50497,13 +50497,6 @@ net tie
 0
 4
 4
-OPA659IDBVR
-SOT95P280X145-5N
-SOT95P280X145-5N
-Integrated Circuit
-0
-5
-5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -66479,6 +66472,13 @@ Connector
 3
 3
 SamacSys_Parts
+47352-1001
+47352-1001
+Connector
+0
+13
+13
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -66501,7 +66501,7 @@ Connector
 16
 SamacSys_Parts
 SOIC127P600X175-8N
--soic d-
+SOIC-N
 Integrated Circuit
 0
 8
@@ -66513,6 +66513,20 @@ Power Supply
 0
 7
 7
+SamacSys_Parts
+SOT95P280X100-5N
+S5 Package 5-Lead Plastic TSOT-23 (Reference LTC DWG # 05-08-1635)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P280X145-5N
+SOT95P280X145-5N
+Integrated Circuit
+0
+5
+5
 SamacSys_Parts
 TL1105CF160Q
 TL1105CF160Q
@@ -66842,6 +66856,13 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Silkscreen
+hp_SilkScreen
+
+
+0
+0
+0
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)

@@ -1136,8 +1136,6 @@ Text GLabel 4400 9200 2    50   Input ~ 0
 uSD_D3
 Text GLabel 4400 10000 2    50   Input ~ 0
 uSD_CMD
-Text GLabel 4400 5900 2    50   Input ~ 0
-uSD_Detect
 Text GLabel 4400 9300 2    50   Input ~ 0
 uSD_CLK
 Wire Wire Line
@@ -2503,10 +2501,10 @@ Wire Wire Line
 	3600 11700 3600 11600
 NoConn ~ 4400 9400
 $Comp
-L SamacSys_Parts:47352-1001 J?
+L SamacSys_Parts:47352-1001 J5
 U 1 1 5E8858FA
 P 10300 7700
-F 0 "J?" H 11000 7965 50  0000 C CNN
+F 0 "J5" H 11000 7965 50  0000 C CNN
 F 1 "47352-1001" H 11000 7874 50  0000 C CNN
 F 2 "47352-1001" H 11550 7800 50  0001 L CNN
 F 3 "http://www.molex.com/pdm_docs/sd/473521001_sd.pdf" H 11550 7700 50  0001 L CNN
@@ -2538,13 +2536,13 @@ uSD_D0
 Text GLabel 12200 8000 2    50   Input ~ 0
 uSD_D1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR031
 U 1 1 5E91C8C7
 P 11700 7800
-AR Path="/5E91C8C7" Ref="#PWR?"  Part="1" 
+AR Path="/5E91C8C7" Ref="#PWR031"  Part="1" 
 AR Path="/5E85F0ED/5E91C8C7" Ref="#PWR?"  Part="1" 
 AR Path="/5EE8E7E4/5E91C8C7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11700 7550 50  0001 C CNN
+F 0 "#PWR031" H 11700 7550 50  0001 C CNN
 F 1 "GND" H 11705 7627 50  0000 C CNN
 F 2 "" H 11700 7800 50  0001 C CNN
 F 3 "" H 11700 7800 50  0001 C CNN
@@ -2552,13 +2550,13 @@ F 3 "" H 11700 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R6
 U 1 1 5E91DA2F
 P 9500 7300
-AR Path="/5E91DA2F" Ref="R?"  Part="1" 
+AR Path="/5E91DA2F" Ref="R6"  Part="1" 
 AR Path="/5E85F0ED/5E91DA2F" Ref="R?"  Part="1" 
 AR Path="/5EE8E7E4/5E91DA2F" Ref="R?"  Part="1" 
-F 0 "R?" V 9400 7350 50  0000 C CNN
+F 0 "R6" V 9400 7350 50  0000 C CNN
 F 1 "47k" V 9300 7350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9500 7300 50  0001 C CNN
 F 3 "~" H 9500 7300 50  0001 C CNN
@@ -2566,13 +2564,13 @@ F 3 "~" H 9500 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R7
 U 1 1 5E91ED01
 P 9750 7300
-AR Path="/5E91ED01" Ref="R?"  Part="1" 
+AR Path="/5E91ED01" Ref="R7"  Part="1" 
 AR Path="/5E85F0ED/5E91ED01" Ref="R?"  Part="1" 
 AR Path="/5EE8E7E4/5E91ED01" Ref="R?"  Part="1" 
-F 0 "R?" V 9650 7350 50  0000 C CNN
+F 0 "R7" V 9650 7350 50  0000 C CNN
 F 1 "47k" V 9550 7350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9750 7300 50  0001 C CNN
 F 3 "~" H 9750 7300 50  0001 C CNN
@@ -2580,13 +2578,13 @@ F 3 "~" H 9750 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R8
 U 1 1 5E91F003
 P 10000 7300
-AR Path="/5E91F003" Ref="R?"  Part="1" 
+AR Path="/5E91F003" Ref="R8"  Part="1" 
 AR Path="/5E85F0ED/5E91F003" Ref="R?"  Part="1" 
 AR Path="/5EE8E7E4/5E91F003" Ref="R?"  Part="1" 
-F 0 "R?" V 9900 7350 50  0000 C CNN
+F 0 "R8" V 9900 7350 50  0000 C CNN
 F 1 "47k" V 9800 7350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10000 7300 50  0001 C CNN
 F 3 "~" H 10000 7300 50  0001 C CNN
@@ -2594,13 +2592,13 @@ F 3 "~" H 10000 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R9
 U 1 1 5E91F915
 P 11950 7300
-AR Path="/5E91F915" Ref="R?"  Part="1" 
+AR Path="/5E91F915" Ref="R9"  Part="1" 
 AR Path="/5E85F0ED/5E91F915" Ref="R?"  Part="1" 
 AR Path="/5EE8E7E4/5E91F915" Ref="R?"  Part="1" 
-F 0 "R?" V 11850 7350 50  0000 C CNN
+F 0 "R9" V 11850 7350 50  0000 C CNN
 F 1 "47k" V 11750 7350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 11950 7300 50  0001 C CNN
 F 3 "~" H 11950 7300 50  0001 C CNN
@@ -2608,13 +2606,13 @@ F 3 "~" H 11950 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R10
 U 1 1 5E91FB61
 P 12300 7300
-AR Path="/5E91FB61" Ref="R?"  Part="1" 
+AR Path="/5E91FB61" Ref="R10"  Part="1" 
 AR Path="/5E85F0ED/5E91FB61" Ref="R?"  Part="1" 
 AR Path="/5EE8E7E4/5E91FB61" Ref="R?"  Part="1" 
-F 0 "R?" V 12200 7350 50  0000 C CNN
+F 0 "R10" V 12200 7350 50  0000 C CNN
 F 1 "47k" V 12100 7350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12300 7300 50  0001 C CNN
 F 3 "~" H 12300 7300 50  0001 C CNN
@@ -2689,4 +2687,5 @@ Wire Wire Line
 Wire Wire Line
 	12300 7200 12100 7200
 Connection ~ 12100 7200
+NoConn ~ 4400 5900
 $EndSCHEMATC
