@@ -4505,10 +4505,10 @@
   (gr_arc (start 123.9875 51.2215) (end 123.9875 46.84) (angle -69.95475057) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 185.546 96.751) (end 179.704 96.751) (layer Edge.Cuts) (width 0.05) (tstamp 5E81F432))
   (gr_line (start 189.609999 50.586501) (end 189.591694 93.072304) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 179.704 46.84) (end 185.970754 46.846657) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 179.7 46.84) (end 185.970754 46.846657) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 179.704 96.751) (end 169.671 96.751) (layer Edge.Cuts) (width 0.05) (tstamp 5E81D794))
-  (gr_line (start 169.547 46.86) (end 179.7 46.84) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 119.76 92.8) (end 119.881422 49.719688) (layer Edge.Cuts) (width 0.05) (tstamp 5EFE6B62))
+  (gr_line (start 169.771 46.84) (end 179.7 46.84) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 119.76 92.8) (end 119.871422 49.719688) (layer Edge.Cuts) (width 0.05) (tstamp 5EFE6B62))
   (gr_line (start 169.671 96.751) (end 123.393586 96.734138) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 123.9875 46.84) (end 169.771 46.84) (layer Edge.Cuts) (width 0.05))
 

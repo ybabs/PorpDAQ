@@ -170,28 +170,6 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
-#
-DEF Device_D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_D_Schottky_Small
 #
 DEF Device_D_Schottky_Small D 0 10 N N 1 F N
@@ -450,29 +428,6 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Reference_Voltage_TLE2426xD
-#
-DEF Reference_Voltage_TLE2426xD U 0 20 Y Y 1 F N
-F0 "U" -410 350 50 H V L CNN
-F1 "Reference_Voltage_TLE2426xD" 400 350 50 H V R CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -600 50 H I C CIN
-F3 "" -1400 950 50 H I C CIN
-$FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
-$ENDFPLIST
-DRAW
-S -400 300 400 -400 0 1 10 f
-X OUT 1 500 200 100 L 50 50 1 1 w
-X COMMON 2 0 -500 100 U 50 50 1 1 W
-X IN 3 -500 200 100 R 50 50 1 1 W
-X NC 4 -400 0 100 R 50 50 1 1 N N
-X NC 5 -400 -100 100 R 50 50 1 1 N N
-X NC 6 400 0 100 L 50 50 1 1 N N
-X NC 7 400 -100 100 L 50 50 1 1 N N
-X NOISE_R 8 -50 400 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Regulator_Linear_AMS1117-3.3
 #
 DEF Regulator_Linear_AMS1117-3.3 U 0 10 Y Y 1 F N
@@ -542,30 +497,6 @@ X V+ 8 600 300 200 D 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_LT1935ES5
-#
-DEF SamacSys_Parts_LT1935ES5 IC 0 30 Y Y 1 F N
-F0 "IC" 950 300 50 H V L CNN
-F1 "SamacSys_Parts_LT1935ES5" 950 200 50 H V L CNN
-F2 "SOT95P280X100-5N" 950 100 50 H I L CNN
-F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf" 450 -50 50 H I L CNN
-F4 "Boost, Flyback, SEPIC Switching Regulator IC Positive Adjustable 1.265V 1 Output 2A (Switch) SOT-23-5 Thin, TSOT-23-5" 950 -100 50 H I L CNN "Description"
-F5 "1" 950 -200 50 H I L CNN "Height"
-F6 "Linear Technology" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "LT1935ES5" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "LT1935ES5" 950 -500 50 H I L CNN "Arrow Part Number"
-F9 "584-LT1935ES5" 950 -700 50 H I L CNN "Mouser Part Number"
-F10 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT1935ES5" 950 -800 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
-X SW 1 700 300 200 D 50 50 0 0 P
-X GND 2 550 -500 200 U 50 50 0 0 P
-X FB 3 1100 -200 200 L 50 50 0 0 P
-X ~SHDN 4 0 -150 200 R 50 50 0 0 P
-X VIN 5 400 300 200 D 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # SamacSys_Parts_OPA659IDBVR
 #
 DEF SamacSys_Parts_OPA659IDBVR IC 0 30 Y Y 1 F N
@@ -612,46 +543,36 @@ X 4 4 0 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# power_+12V
+# SamacSys_Parts_TPS65133DPDR
 #
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF SamacSys_Parts_TPS65133DPDR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_TPS65133DPDR" 1050 200 50 H V L CNN
+F2 "SON45P300X300X80-13N-D" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps65133.pdf" 1050 0 50 H I L CNN
+F4 "Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS65133DPDR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "TPS65133DPDR" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/tps65133dpdr/texas-instruments" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "595-TPS65133DPDR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS65133DPDR?qs=7GxONfNUZSjxiorxR5wfmg%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+6V
-#
-DEF power_+6V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+6V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +6V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_-6V
-#
-DEF power_-6V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 100 50 H I C CNN
-F1 "power_-6V" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
-X -6V 1 0 0 0 U 50 50 0 0 W N
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+X SWP 1 1200 0 200 L 50 50 0 0 P
+X SWN 10 1200 -700 200 L 50 50 0 0 P
+X AVIN 11 0 -150 200 R 50 50 0 0 I
+X PVIN 12 0 50 200 R 50 50 0 0 I
+X EP 13 600 -1000 200 U 50 50 0 0 P
+X PGND 2 0 -50 200 R 50 50 0 0 W
+X VPOS 3 1200 -200 200 L 50 50 0 0 P
+X GND_1 4 0 -500 200 R 50 50 0 0 W
+X AGND 5 0 -250 200 R 50 50 0 0 W
+X GND_2 6 0 -600 200 R 50 50 0 0 W
+X EN 7 0 -400 200 R 50 50 0 0 P
+X GND_3 8 0 -700 200 R 50 50 0 0 W
+X VNEG 9 1200 -500 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

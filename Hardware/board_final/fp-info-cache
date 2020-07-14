@@ -1,4 +1,4 @@
-16316865291596084
+16324825586818388
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66472,6 +66472,20 @@ Connector
 3
 3
 SamacSys_Parts
+47352-1001
+47352-1001
+Connector
+0
+13
+13
+SamacSys_Parts
+INDPM5757X300N
+CDRH5D28NP-4R2NC-
+Inductor
+0
+2
+2
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -66493,6 +66507,13 @@ Connector
 16
 16
 SamacSys_Parts
+RESC3226X100N
+2-SMD
+Crystal or Oscillator
+0
+2
+2
+SamacSys_Parts
 SOIC127P600X175-8N
 SOIC-N
 Integrated Circuit
@@ -66506,6 +66527,20 @@ Power Supply
 0
 7
 7
+SamacSys_Parts
+SOT95P280X100-5N
+S5 Package 5-Lead Plastic TSOT-23 (Reference LTC DWG # 05-08-1635)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P280X145-5N
+SOT95P280X145-5N
+Integrated Circuit
+0
+5
+5
 SamacSys_Parts
 TL1105CF160Q
 TL1105CF160Q
