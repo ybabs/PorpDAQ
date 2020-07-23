@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for mb1191
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -276,23 +276,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IBZGCTCR
 
 [Document15]
-DocumentPath=MB1191.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OHDSIVEG
-
-[Document16]
 DocumentPath=MB1191.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=MB1191.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -325,23 +308,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PEEHIKOK
-
-[Document18]
-DocumentPath=Mb1191.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IXQJGWNV
 
 [ProjectVariant1]
 UniqueID=AE7602F0-EC4E-4DC7-AE3C-B58F44473A3C
@@ -428,10 +394,6 @@ ParamVariationCount=17
 Name=Board_Name
 Value=STM32F7508-DK
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for mb1191\Design Rule Check - MB1191.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Board_Assembly_Revision
 Value=01
@@ -494,7 +456,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for mb1191
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -607,7 +569,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\TUNSW00002.tun.st.com\TUNPRT019
+TargetPrinter=\\student-print.lboro.ac.uk\Student-Mono
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -707,6 +669,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -854,16 +822,18 @@ OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 Configuration6_Name1=Filter
 Configuration6_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration6_Name2=General
-Configuration6_Item2=OpenExported=True|AddToProject=True|ForceFit=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=M:\bruno_pc\mcd_eval\altium\templates\BOM-ST-Template.XLT|BatchMode=5|FormWidth=1205|FormHeight=783|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration6_Name3=GroupOrder
-Configuration6_Item3=DocumentName=True|Comment=True|Footprint=True|Fitted=True|Description=True|Solder=True
-Configuration6_Name4=OutputConfigurationParameter1
-Configuration6_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration6_Name5=SortOrder
-Configuration6_Item5=Designator=Up
-Configuration6_Name6=VisibleOrder
-Configuration6_Item6=Comment=53|Description=56|Designator=39|Distrib=47|Fitted=36|Footprint=80|Manuf_1=54|Manuf_2=58|Manuf_Part_1=56|Manuf_Part_2=62|Manuf_Part_3=62|Order=21|Solder=21|ECCN_US/EU=21|Ref St=21|Quantity=21|Library Name=50|LibRef=63|DocumentName=49|Provided=62
+Configuration6_Name2=ForceUpdateSettings
+Configuration6_Item2=False
+Configuration6_Name3=General
+Configuration6_Item3=OpenExported=True|AddToProject=True|ForceFit=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=M:\bruno_pc\mcd_eval\altium\templates\BOM-ST-Template.XLT|BatchMode=5|FormWidth=1205|FormHeight=783|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration6_Name4=GroupOrder
+Configuration6_Item4=DocumentName=True|Comment=True|Footprint=True|Fitted=True|Description=True|Solder=True
+Configuration6_Name5=OutputConfigurationParameter1
+Configuration6_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration6_Name6=SortOrder
+Configuration6_Item6=Designator=Up
+Configuration6_Name7=VisibleOrder
+Configuration6_Item7=Comment=53|Description=56|Designator=39|Distrib=47|Fitted=36|Footprint=80|Manuf_1=54|Manuf_2=58|Manuf_Part_1=56|Manuf_Part_2=62|Manuf_Part_3=62|Order=21|Solder=21|ECCN_US/EU=21|Ref St=21|Quantity=21|Library Name=50|LibRef=63|DocumentName=49|Provided=62
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1139,6 +1109,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1269,6 +1249,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1337,6 +1319,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1345,33 +1329,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=0
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1382,15 +1366,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1398,10 +1382,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1439,7 +1423,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1484,6 +1468,7 @@ L17=EEEEEEEEEEEEEEEEE
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1504,6 +1489,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1522,6 +1508,7 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]

@@ -982,77 +982,12 @@ Wire Notes Line
 	4050 9850 4050 9100
 Text Notes 4100 9800 0    50   ~ 0
 Mounting Holes\n
-$Comp
-L SamacSys_Parts:TL1105CF160Q S1
-U 1 1 5F163850
-P 1650 8250
-F 0 "S1" H 2050 8515 50  0000 C CNN
-F 1 "TL1105CF160Q" H 2050 8424 50  0000 C CNN
-F 2 "SamacSys_Parts:TL1105CF160Q" H 2300 8350 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/TL1105CF160Q.pdf" H 2300 8250 50  0001 L CNN
-F 4 "Tactile Switches 6X6X8MM 160GF" H 2300 8150 50  0001 L CNN "Description"
-F 5 "8" H 2300 8050 50  0001 L CNN "Height"
-F 6 "E-Switch" H 2300 7950 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1105CF160Q" H 2300 7850 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1105C" H 2300 7750 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-TL1105C" H 2300 7650 50  0001 L CNN "Mouser Price/Stock"
-	1    1650 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 5F16641C
-P 2050 8650
-F 0 "C26" V 1950 8500 50  0000 C CNN
-F 1 "100n" V 1912 8650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2050 8650 50  0001 C CNN
-F 3 "~" H 2050 8650 50  0001 C CNN
-	1    2050 8650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 8650 2450 8650
-Wire Wire Line
-	2450 8650 2450 8600
-Connection ~ 2450 8350
-Wire Wire Line
-	2450 8350 2450 8250
-Wire Wire Line
-	1950 8650 1650 8650
-Wire Wire Line
-	1650 8650 1650 8350
-Connection ~ 1650 8350
-Wire Wire Line
-	1650 8350 1650 8250
-$Comp
-L power:GND #PWR032
-U 1 1 5F1716CA
-P 2550 8600
-F 0 "#PWR032" H 2550 8350 50  0001 C CNN
-F 1 "GND" H 2555 8427 50  0000 C CNN
-F 2 "" H 2550 8600 50  0001 C CNN
-F 3 "" H 2550 8600 50  0001 C CNN
-	1    2550 8600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 8600 2450 8600
-Connection ~ 2450 8600
-Wire Wire Line
-	2450 8600 2450 8350
-Text GLabel 1300 8250 0    50   Input ~ 0
-NRST
-Wire Wire Line
-	1650 8250 1300 8250
-Connection ~ 1650 8250
 Wire Notes Line
 	2750 7950 2750 8900
 Wire Notes Line
 	2750 8900 800  8900
 Wire Notes Line
 	800  8900 800  7950
-Wire Notes Line
-	800  7950 2750 7950
 Text Notes 900  8850 0    50   ~ 0
 RESET BUTTON\n
 Text GLabel 3450 7800 0    50   Input ~ 0
@@ -1785,28 +1720,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4000 9200 4000
 Connection ~ 9200 4000
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5FB89251
-P 3300 8400
-F 0 "J9" H 3380 8392 50  0000 L CNN
-F 1 "12V " H 3380 8301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3300 8400 50  0001 C CNN
-F 3 "~" H 3300 8400 50  0001 C CNN
-	1    3300 8400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5FB89E89
-P 3100 8500
-F 0 "#PWR017" H 3100 8250 50  0001 C CNN
-F 1 "GND" H 3105 8327 50  0000 C CNN
-F 2 "" H 3100 8500 50  0001 C CNN
-F 3 "" H 3100 8500 50  0001 C CNN
-	1    3100 8500
-	1    0    0    -1  
-$EndComp
 Text GLabel 4950 7000 3    50   Input ~ 0
 VREF+
 Text GLabel 4950 6550 1    50   Input ~ 0
@@ -1826,17 +1739,6 @@ Wire Wire Line
 	4950 6550 4950 6650
 Wire Wire Line
 	4950 6850 4950 7000
-$Comp
-L power:+12V #PWR0104
-U 1 1 5FCC24F9
-P 3100 8400
-F 0 "#PWR0104" H 3100 8250 50  0001 C CNN
-F 1 "+12V" H 3115 8573 50  0000 C CNN
-F 2 "" H 3100 8400 50  0001 C CNN
-F 3 "" H 3100 8400 50  0001 C CNN
-	1    3100 8400
-	1    0    0    -1  
-$EndComp
 $Comp
 L SamacSys_Parts:OPA659IDBVR IC1
 U 1 1 5EFE02B4
@@ -2162,4 +2064,69 @@ Wire Wire Line
 Wire Wire Line
 	9050 5600 8950 5600
 Connection ~ 8950 5600
+Wire Notes Line
+	800  7950 2750 7950
+Wire Wire Line
+	2550 8600 2450 8600
+Connection ~ 2450 8600
+Wire Wire Line
+	2450 8650 2450 8600
+Wire Wire Line
+	2150 8650 2450 8650
+Wire Wire Line
+	1650 8250 1300 8250
+Wire Wire Line
+	1950 8650 1650 8650
+Connection ~ 1650 8250
+Connection ~ 1650 8350
+Wire Wire Line
+	1650 8350 1650 8250
+Wire Wire Line
+	1650 8650 1650 8350
+Wire Wire Line
+	2450 8600 2450 8350
+Wire Wire Line
+	2450 8350 2450 8250
+Connection ~ 2450 8350
+$Comp
+L SamacSys_Parts:TL1105CF160Q_0 S1
+U 1 1 5F163850
+P 1650 8250
+F 0 "S1" H 2050 8515 50  0000 C CNN
+F 1 "TL1105CF160Q" H 2050 8424 50  0000 C CNN
+F 2 "SamacSys_Parts:DTSM644NVTR" H 2300 8350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/TL1105CF160Q.pdf" H 2300 8250 50  0001 L CNN
+F 4 "Tactile Switches 6X6X8MM 160GF" H 2300 8150 50  0001 L CNN "Description"
+F 5 "8" H 2300 8050 50  0001 L CNN "Height"
+F 6 "E-Switch" H 2300 7950 50  0001 L CNN "Manufacturer_Name"
+F 7 "TL1105CF160Q" H 2300 7850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "612-TL1105C" H 2300 7750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-TL1105C" H 2300 7650 50  0001 L CNN "Mouser Price/Stock"
+	1    1650 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5F1716CA
+P 2550 8600
+F 0 "#PWR032" H 2550 8350 50  0001 C CNN
+F 1 "GND" H 2555 8427 50  0000 C CNN
+F 2 "" H 2550 8600 50  0001 C CNN
+F 3 "" H 2550 8600 50  0001 C CNN
+	1    2550 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 5F16641C
+P 2050 8650
+F 0 "C26" V 1950 8500 50  0000 C CNN
+F 1 "100n" V 1912 8650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2050 8650 50  0001 C CNN
+F 3 "~" H 2050 8650 50  0001 C CNN
+	1    2050 8650
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 8250 0    50   Input ~ 0
+NRST
 $EndSCHEMATC
