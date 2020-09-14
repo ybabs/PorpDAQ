@@ -142,6 +142,7 @@ void mountSD(void)
 {
 	if(f_mount(&FatFSInstance, SDPath, 1) == FR_OK)
 	{		
+		LED_ON();
 		if(f_open(&wavFile, WAV_FILE, FA_WRITE| FA_CREATE_ALWAYS) == FR_OK)
 		{
 			// Initialise WAV Header
@@ -219,6 +220,7 @@ void computeFFT(void)
 
 void vProducer(void const * argument)
 {
+	mountSD();
 	for(;;)
 	{		
 		prodEvent = osSignalWait(0x01, osWaitForever);

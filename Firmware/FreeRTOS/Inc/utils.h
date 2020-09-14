@@ -5,7 +5,8 @@
 #include "stm32f7xx_hal.h"
 
 
-#define LED_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET)
+//#define LED_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET)
+#define LED_ON()  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, GPIO_PIN_SET)
 
 #define LED_OFF()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET)
 
