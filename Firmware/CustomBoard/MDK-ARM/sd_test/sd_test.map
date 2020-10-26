@@ -4189,48 +4189,48 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x000001c8   Data   RO            3    RESET               startup_stm32f746xx.o
-    0x080001c8   0x080001c8   0x00000000   Code   RO         6906  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x080001c8   0x080001c8   0x00000004   Code   RO         7180    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x080001cc   0x080001cc   0x00000004   Code   RO         7183    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x080001d0   0x080001d0   0x00000000   Code   RO         7185    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x080001d0   0x080001d0   0x00000000   Code   RO         7187    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x080001d0   0x080001d0   0x00000008   Code   RO         7188    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x080001d8   0x080001d8   0x00000000   Code   RO         7190    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x080001d8   0x080001d8   0x00000000   Code   RO         7192    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x080001d8   0x080001d8   0x00000004   Code   RO         7181    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
-    0x080001dc   0x080001dc   0x000000c2   Code   RO         6621    .emb_text           port.o
+    0x080001c8   0x080001c8   0x00000000   Code   RO         6946  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080001c8   0x080001c8   0x00000004   Code   RO         7220    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080001cc   0x080001cc   0x00000004   Code   RO         7223    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080001d0   0x080001d0   0x00000000   Code   RO         7225    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080001d0   0x080001d0   0x00000000   Code   RO         7227    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080001d0   0x080001d0   0x00000008   Code   RO         7228    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080001d8   0x080001d8   0x00000000   Code   RO         7230    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x080001d8   0x080001d8   0x00000000   Code   RO         7232    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x080001d8   0x080001d8   0x00000004   Code   RO         7221    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x080001dc   0x080001dc   0x000000c2   Code   RO         6661    .emb_text           port.o
     0x0800029e   0x0800029e   0x00000002   PAD
     0x080002a0   0x080002a0   0x00000024   Code   RO            4    .text               startup_stm32f746xx.o
-    0x080002c4   0x080002c4   0x00000062   Code   RO         6909    .text               mc_w.l(uldiv.o)
-    0x08000326   0x08000326   0x00000024   Code   RO         6911    .text               mc_w.l(memcpya.o)
-    0x0800034a   0x0800034a   0x00000024   Code   RO         6915    .text               mc_w.l(memseta.o)
-    0x0800036e   0x0800036e   0x0000002c   Code   RO         7197    .text               mc_w.l(uidiv.o)
-    0x0800039a   0x0800039a   0x0000001e   Code   RO         7199    .text               mc_w.l(llshl.o)
-    0x080003b8   0x080003b8   0x00000020   Code   RO         7201    .text               mc_w.l(llushr.o)
-    0x080003d8   0x080003d8   0x00000000   Code   RO         7210    .text               mc_w.l(iusefp.o)
-    0x080003d8   0x080003d8   0x00000024   Code   RO         7221    .text               mc_w.l(init.o)
-    0x080003fc   0x080003fc   0x0000004c   Code   RO         6872    .text.arm_bitreversal_32  arm_cortexM7lfsp_math.lib(arm_bitreversal2.o)
-    0x08000448   0x08000448   0x000000dc   Code   RO         6766    .text.arm_cfft_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
-    0x08000524   0x08000524   0x0000017e   Code   RO         6762    .text.arm_cfft_radix8by2_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
+    0x080002c4   0x080002c4   0x00000062   Code   RO         6949    .text               mc_w.l(uldiv.o)
+    0x08000326   0x08000326   0x00000024   Code   RO         6951    .text               mc_w.l(memcpya.o)
+    0x0800034a   0x0800034a   0x00000024   Code   RO         6955    .text               mc_w.l(memseta.o)
+    0x0800036e   0x0800036e   0x0000002c   Code   RO         7237    .text               mc_w.l(uidiv.o)
+    0x0800039a   0x0800039a   0x0000001e   Code   RO         7239    .text               mc_w.l(llshl.o)
+    0x080003b8   0x080003b8   0x00000020   Code   RO         7241    .text               mc_w.l(llushr.o)
+    0x080003d8   0x080003d8   0x00000000   Code   RO         7250    .text               mc_w.l(iusefp.o)
+    0x080003d8   0x080003d8   0x00000024   Code   RO         7261    .text               mc_w.l(init.o)
+    0x080003fc   0x080003fc   0x0000004c   Code   RO         6912    .text.arm_bitreversal_32  arm_cortexM7lfsp_math.lib(arm_bitreversal2.o)
+    0x08000448   0x08000448   0x000000dc   Code   RO         6806    .text.arm_cfft_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
+    0x08000524   0x08000524   0x0000017e   Code   RO         6802    .text.arm_cfft_radix8by2_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
     0x080006a2   0x080006a2   0x00000002   PAD
-    0x080006a4   0x080006a4   0x000003dc   Code   RO         6764    .text.arm_cfft_radix8by4_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
-    0x08000a80   0x08000a80   0x00000138   Code   RO         6699    .text.arm_cmplx_mag_f32  arm_cortexM7lfsp_math.lib(arm_cmplx_mag_f32.o)
-    0x08000bb8   0x08000bb8   0x000000c6   Code   RO         6752    .text.arm_max_f32   arm_cortexM7lfsp_math.lib(arm_max_f32.o)
+    0x080006a4   0x080006a4   0x000003dc   Code   RO         6804    .text.arm_cfft_radix8by4_f32  arm_cortexM7lfsp_math.lib(arm_cfft_f32.o)
+    0x08000a80   0x08000a80   0x00000138   Code   RO         6739    .text.arm_cmplx_mag_f32  arm_cortexM7lfsp_math.lib(arm_cmplx_mag_f32.o)
+    0x08000bb8   0x08000bb8   0x000000c6   Code   RO         6792    .text.arm_max_f32   arm_cortexM7lfsp_math.lib(arm_max_f32.o)
     0x08000c7e   0x08000c7e   0x00000002   PAD
-    0x08000c80   0x08000c80   0x00000524   Code   RO         6885    .text.arm_radix8_butterfly_f32  arm_cortexM7lfsp_math.lib(arm_cfft_radix8_f32.o)
-    0x080011a4   0x080011a4   0x0000003c   Code   RO         6735    .text.arm_rfft_1024_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x080011e0   0x080011e0   0x0000003c   Code   RO         6737    .text.arm_rfft_2048_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x0800121c   0x0800121c   0x00000038   Code   RO         6731    .text.arm_rfft_256_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x08001254   0x08001254   0x00000036   Code   RO         6725    .text.arm_rfft_32_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x0800128a   0x0800128a   0x0000003c   Code   RO         6739    .text.arm_rfft_4096_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x080012c6   0x080012c6   0x0000003c   Code   RO         6733    .text.arm_rfft_512_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x08001302   0x08001302   0x00000036   Code   RO         6727    .text.arm_rfft_64_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
-    0x08001338   0x08001338   0x00000050   Code   RO         6714    .text.arm_rfft_fast_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
-    0x08001388   0x08001388   0x0000007e   Code   RO         6741    .text.arm_rfft_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x08000c80   0x08000c80   0x00000524   Code   RO         6925    .text.arm_radix8_butterfly_f32  arm_cortexM7lfsp_math.lib(arm_cfft_radix8_f32.o)
+    0x080011a4   0x080011a4   0x0000003c   Code   RO         6775    .text.arm_rfft_1024_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x080011e0   0x080011e0   0x0000003c   Code   RO         6777    .text.arm_rfft_2048_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x0800121c   0x0800121c   0x00000038   Code   RO         6771    .text.arm_rfft_256_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x08001254   0x08001254   0x00000036   Code   RO         6765    .text.arm_rfft_32_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x0800128a   0x0800128a   0x0000003c   Code   RO         6779    .text.arm_rfft_4096_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x080012c6   0x080012c6   0x0000003c   Code   RO         6773    .text.arm_rfft_512_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x08001302   0x08001302   0x00000036   Code   RO         6767    .text.arm_rfft_64_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
+    0x08001338   0x08001338   0x00000050   Code   RO         6754    .text.arm_rfft_fast_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
+    0x08001388   0x08001388   0x0000007e   Code   RO         6781    .text.arm_rfft_fast_init_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_init_f32.o)
     0x08001406   0x08001406   0x00000002   PAD
-    0x08001408   0x08001408   0x000000aa   Code   RO         6712    .text.merge_rfft_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
+    0x08001408   0x08001408   0x000000aa   Code   RO         6752    .text.merge_rfft_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
     0x080014b2   0x080014b2   0x00000002   PAD
-    0x080014b4   0x080014b4   0x000000a4   Code   RO         6710    .text.stage_rfft_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
+    0x080014b4   0x080014b4   0x000000a4   Code   RO         6750    .text.stage_rfft_f32  arm_cortexM7lfsp_math.lib(arm_rfft_fast_f32.o)
     0x08001558   0x08001558   0x0000006e   Code   RO         1135    i.ADC_DMAConvCplt   stm32f7xx_hal_adc.o
     0x080015c6   0x080015c6   0x00000016   Code   RO         1136    i.ADC_DMAError      stm32f7xx_hal_adc.o
     0x080015dc   0x080015dc   0x0000000a   Code   RO         1137    i.ADC_DMAHalfConvCplt  stm32f7xx_hal_adc.o
@@ -4413,7 +4413,7 @@ Memory Map of the image
     0x08005000   0x08005000   0x000000a0   Code   RO          996    i.SD_read           sd_diskio.o
     0x080050a0   0x080050a0   0x00000004   Code   RO          997    i.SD_status         sd_diskio.o
     0x080050a4   0x080050a4   0x000000bc   Code   RO          998    i.SD_write          sd_diskio.o
-    0x08005160   0x08005160   0x00000030   Code   RO         6622    i.SysTick_Handler   port.o
+    0x08005160   0x08005160   0x00000030   Code   RO         6662    i.SysTick_Handler   port.o
     0x08005190   0x08005190   0x000000a4   Code   RO           15    i.SystemClock_Config  main.o
     0x08005234   0x08005234   0x00000054   Code   RO         4911    i.SystemInit        system_stm32f7xx.o
     0x08005288   0x08005288   0x0000000c   Code   RO          616    i.TIM1_BRK_TIM9_IRQHandler  stm32f7xx_it.o
@@ -4441,16 +4441,16 @@ Memory Map of the image
     0x080058c4   0x080058c4   0x00000002   Code   RO          621    i.UsageFault_Handler  stm32f7xx_it.o
     0x080058c6   0x080058c6   0x00000030   Code   RO          841    i.WavHeaderUpdate   wav.o
     0x080058f6   0x080058f6   0x00000002   PAD
-    0x080058f8   0x080058f8   0x00000030   Code   RO         6965    i.__0snprintf$1     mc_w.l(printf1.o)
+    0x080058f8   0x080058f8   0x00000030   Code   RO         7005    i.__0snprintf$1     mc_w.l(printf1.o)
     0x08005928   0x08005928   0x00000022   Code   RO         2201    i.__NVIC_SetPriority  stm32f7xx_hal_cortex.o
-    0x0800594a   0x0800594a   0x0000003a   Code   RO         6894    i.__hardfp_sqrtf    m_wm.l(sqrtf.o)
-    0x08005984   0x08005984   0x0000000e   Code   RO         7231    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08005992   0x08005992   0x00000002   Code   RO         7232    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08005994   0x08005994   0x0000000e   Code   RO         7233    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800594a   0x0800594a   0x0000003a   Code   RO         6934    i.__hardfp_sqrtf    m_wm.l(sqrtf.o)
+    0x08005984   0x08005984   0x0000000e   Code   RO         7271    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08005992   0x08005992   0x00000002   Code   RO         7272    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08005994   0x08005994   0x0000000e   Code   RO         7273    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x080059a2   0x080059a2   0x00000002   PAD
-    0x080059a4   0x080059a4   0x0000000c   Code   RO         7205    i.__set_errno       mc_w.l(errno.o)
-    0x080059b0   0x080059b0   0x00000154   Code   RO         6971    i._printf_core      mc_w.l(printf1.o)
-    0x08005b04   0x08005b04   0x00000016   Code   RO         6972    i._snputc           mc_w.l(printf1.o)
+    0x080059a4   0x080059a4   0x0000000c   Code   RO         7245    i.__set_errno       mc_w.l(errno.o)
+    0x080059b0   0x080059b0   0x00000154   Code   RO         7011    i._printf_core      mc_w.l(printf1.o)
+    0x08005b04   0x08005b04   0x00000016   Code   RO         7012    i._snputc           mc_w.l(printf1.o)
     0x08005b1a   0x08005b1a   0x00000002   PAD
     0x08005b1c   0x08005b1c   0x00000070   Code   RO         5003    i.check_fs          ff.o
     0x08005b8c   0x08005b8c   0x0000005c   Code   RO         5004    i.chk_lock          ff.o
@@ -4489,7 +4489,7 @@ Memory Map of the image
     0x08006d02   0x08006d02   0x000000ea   Code   RO         5040    i.get_fat           ff.o
     0x08006dec   0x08006dec   0x00000004   Code   RO         1092    i.get_fattime       fatfs.o
     0x08006df0   0x08006df0   0x0000003c   Code   RO         5042    i.get_ldnumber      ff.o
-    0x08006e2c   0x08006e2c   0x0000000c   Code   RO         6191    i.inHandlerMode     cmsis_os.o
+    0x08006e2c   0x08006e2c   0x0000000c   Code   RO         6228    i.inHandlerMode     cmsis_os.o
     0x08006e38   0x08006e38   0x00000080   Code   RO         5043    i.inc_lock          ff.o
     0x08006eb8   0x08006eb8   0x00000026   Code   RO         5044    i.ld_clust          ff.o
     0x08006ede   0x08006ede   0x00000016   Code   RO         5045    i.ld_dword          ff.o
@@ -4497,59 +4497,59 @@ Memory Map of the image
     0x08006efe   0x08006efe   0x00000014   Code   RO         5047    i.lock_fs           ff.o
     0x08006f12   0x08006f12   0x00000002   PAD
     0x08006f14   0x08006f14   0x000000c0   Code   RO           16    i.main              main.o
-    0x08006fd4   0x08006fd4   0x0000000e   Code   RO         6193    i.makeFreeRtosPriority  cmsis_os.o
+    0x08006fd4   0x08006fd4   0x0000000e   Code   RO         6230    i.makeFreeRtosPriority  cmsis_os.o
     0x08006fe2   0x08006fe2   0x00000012   Code   RO         5048    i.mem_cpy           ff.o
     0x08006ff4   0x08006ff4   0x0000000e   Code   RO         5049    i.mem_set           ff.o
     0x08007002   0x08007002   0x00000002   PAD
     0x08007004   0x08007004   0x0000006c   Code   RO          302    i.mountSD           freertos.o
     0x08007070   0x08007070   0x00000032   Code   RO         5050    i.move_window       ff.o
-    0x080070a2   0x080070a2   0x00000012   Code   RO         6197    i.osKernelRunning   cmsis_os.o
-    0x080070b4   0x080070b4   0x0000000a   Code   RO         6198    i.osKernelStart     cmsis_os.o
-    0x080070be   0x080070be   0x00000018   Code   RO         6199    i.osKernelSysTick   cmsis_os.o
-    0x080070d6   0x080070d6   0x0000000c   Code   RO         6200    i.osMailAlloc       cmsis_os.o
-    0x080070e2   0x080070e2   0x00000056   Code   RO         6202    i.osMailCreate      cmsis_os.o
-    0x08007138   0x08007138   0x0000000c   Code   RO         6203    i.osMailFree        cmsis_os.o
-    0x08007144   0x08007144   0x00000094   Code   RO         6204    i.osMailGet         cmsis_os.o
-    0x080071d8   0x080071d8   0x0000005c   Code   RO         6205    i.osMailPut         cmsis_os.o
-    0x08007234   0x08007234   0x00000026   Code   RO         6207    i.osMessageCreate   cmsis_os.o
+    0x080070a2   0x080070a2   0x00000012   Code   RO         6234    i.osKernelRunning   cmsis_os.o
+    0x080070b4   0x080070b4   0x0000000a   Code   RO         6235    i.osKernelStart     cmsis_os.o
+    0x080070be   0x080070be   0x00000018   Code   RO         6236    i.osKernelSysTick   cmsis_os.o
+    0x080070d6   0x080070d6   0x0000000c   Code   RO         6237    i.osMailAlloc       cmsis_os.o
+    0x080070e2   0x080070e2   0x00000056   Code   RO         6239    i.osMailCreate      cmsis_os.o
+    0x08007138   0x08007138   0x0000000c   Code   RO         6240    i.osMailFree        cmsis_os.o
+    0x08007144   0x08007144   0x00000094   Code   RO         6241    i.osMailGet         cmsis_os.o
+    0x080071d8   0x080071d8   0x0000005c   Code   RO         6242    i.osMailPut         cmsis_os.o
+    0x08007234   0x08007234   0x00000026   Code   RO         6244    i.osMessageCreate   cmsis_os.o
     0x0800725a   0x0800725a   0x00000002   PAD
-    0x0800725c   0x0800725c   0x00000094   Code   RO         6209    i.osMessageGet      cmsis_os.o
-    0x080072f0   0x080072f0   0x0000005c   Code   RO         6211    i.osMessagePut      cmsis_os.o
-    0x0800734c   0x0800734c   0x0000006e   Code   RO         6217    i.osPoolAlloc       cmsis_os.o
-    0x080073ba   0x080073ba   0x0000005e   Code   RO         6219    i.osPoolCreate      cmsis_os.o
-    0x08007418   0x08007418   0x0000002e   Code   RO         6220    i.osPoolFree        cmsis_os.o
-    0x08007446   0x08007446   0x0000003e   Code   RO         6224    i.osSemaphoreCreate  cmsis_os.o
-    0x08007484   0x08007484   0x00000018   Code   RO         6225    i.osSemaphoreDelete  cmsis_os.o
-    0x0800749c   0x0800749c   0x00000050   Code   RO         6227    i.osSemaphoreRelease  cmsis_os.o
-    0x080074ec   0x080074ec   0x00000068   Code   RO         6228    i.osSemaphoreWait   cmsis_os.o
-    0x08007554   0x08007554   0x0000005c   Code   RO         6229    i.osSignalSet       cmsis_os.o
-    0x080075b0   0x080075b0   0x00000056   Code   RO         6230    i.osSignalWait      cmsis_os.o
-    0x08007606   0x08007606   0x00000054   Code   RO         6232    i.osThreadCreate    cmsis_os.o
+    0x0800725c   0x0800725c   0x00000094   Code   RO         6246    i.osMessageGet      cmsis_os.o
+    0x080072f0   0x080072f0   0x0000005c   Code   RO         6248    i.osMessagePut      cmsis_os.o
+    0x0800734c   0x0800734c   0x0000006e   Code   RO         6254    i.osPoolAlloc       cmsis_os.o
+    0x080073ba   0x080073ba   0x0000005e   Code   RO         6256    i.osPoolCreate      cmsis_os.o
+    0x08007418   0x08007418   0x0000002e   Code   RO         6257    i.osPoolFree        cmsis_os.o
+    0x08007446   0x08007446   0x0000003e   Code   RO         6261    i.osSemaphoreCreate  cmsis_os.o
+    0x08007484   0x08007484   0x00000018   Code   RO         6262    i.osSemaphoreDelete  cmsis_os.o
+    0x0800749c   0x0800749c   0x00000050   Code   RO         6264    i.osSemaphoreRelease  cmsis_os.o
+    0x080074ec   0x080074ec   0x00000068   Code   RO         6265    i.osSemaphoreWait   cmsis_os.o
+    0x08007554   0x08007554   0x0000005c   Code   RO         6266    i.osSignalSet       cmsis_os.o
+    0x080075b0   0x080075b0   0x00000056   Code   RO         6267    i.osSignalWait      cmsis_os.o
+    0x08007606   0x08007606   0x00000054   Code   RO         6269    i.osThreadCreate    cmsis_os.o
     0x0800765a   0x0800765a   0x00000002   PAD
-    0x0800765c   0x0800765c   0x00000034   Code   RO         6236    i.osThreadResume    cmsis_os.o
-    0x08007690   0x08007690   0x0000000a   Code   RO         6239    i.osThreadSuspend   cmsis_os.o
+    0x0800765c   0x0800765c   0x00000034   Code   RO         6273    i.osThreadResume    cmsis_os.o
+    0x08007690   0x08007690   0x0000000a   Code   RO         6276    i.osThreadSuspend   cmsis_os.o
     0x0800769a   0x0800769a   0x00000002   PAD
-    0x0800769c   0x0800769c   0x00000070   Code   RO         5890    i.prvAddCurrentTaskToDelayedList  tasks.o
-    0x0800770c   0x0800770c   0x000000d0   Code   RO         5891    i.prvAddNewTaskToReadyList  tasks.o
-    0x080077dc   0x080077dc   0x00000026   Code   RO         5584    i.prvCopyDataFromQueue  queue.o
-    0x08007802   0x08007802   0x0000006c   Code   RO         5585    i.prvCopyDataToQueue  queue.o
-    0x0800786e   0x0800786e   0x00000038   Code   RO         5892    i.prvDeleteTCB      tasks.o
+    0x0800769c   0x0800769c   0x00000070   Code   RO         5927    i.prvAddCurrentTaskToDelayedList  tasks.o
+    0x0800770c   0x0800770c   0x000000d0   Code   RO         5928    i.prvAddNewTaskToReadyList  tasks.o
+    0x080077dc   0x080077dc   0x00000026   Code   RO         5615    i.prvCopyDataFromQueue  queue.o
+    0x08007802   0x08007802   0x0000006c   Code   RO         5616    i.prvCopyDataToQueue  queue.o
+    0x0800786e   0x0800786e   0x00000038   Code   RO         5929    i.prvDeleteTCB      tasks.o
     0x080078a6   0x080078a6   0x00000002   PAD
-    0x080078a8   0x080078a8   0x00000050   Code   RO         6560    i.prvHeapInit       heap_4.o
-    0x080078f8   0x080078f8   0x00000060   Code   RO         5893    i.prvIdleTask       tasks.o
-    0x08007958   0x08007958   0x00000016   Code   RO         5587    i.prvInitialiseNewQueue  queue.o
-    0x0800796e   0x0800796e   0x00000092   Code   RO         5894    i.prvInitialiseNewTask  tasks.o
-    0x08007a00   0x08007a00   0x0000004c   Code   RO         6561    i.prvInsertBlockIntoFreeList  heap_4.o
-    0x08007a4c   0x08007a4c   0x0000001c   Code   RO         5588    i.prvIsQueueEmpty   queue.o
-    0x08007a68   0x08007a68   0x00000020   Code   RO         5895    i.prvResetNextTaskUnblockTime  tasks.o
-    0x08007a88   0x08007a88   0x00000030   Code   RO         6623    i.prvTaskExitError  port.o
-    0x08007ab8   0x08007ab8   0x0000003c   Code   RO         5896    i.prvTaskIsTaskSuspended  tasks.o
-    0x08007af4   0x08007af4   0x0000006a   Code   RO         5589    i.prvUnlockQueue    queue.o
+    0x080078a8   0x080078a8   0x00000050   Code   RO         6600    i.prvHeapInit       heap_4.o
+    0x080078f8   0x080078f8   0x00000060   Code   RO         5930    i.prvIdleTask       tasks.o
+    0x08007958   0x08007958   0x00000016   Code   RO         5618    i.prvInitialiseNewQueue  queue.o
+    0x0800796e   0x0800796e   0x00000092   Code   RO         5931    i.prvInitialiseNewTask  tasks.o
+    0x08007a00   0x08007a00   0x0000004c   Code   RO         6601    i.prvInsertBlockIntoFreeList  heap_4.o
+    0x08007a4c   0x08007a4c   0x0000001c   Code   RO         5619    i.prvIsQueueEmpty   queue.o
+    0x08007a68   0x08007a68   0x00000020   Code   RO         5932    i.prvResetNextTaskUnblockTime  tasks.o
+    0x08007a88   0x08007a88   0x00000030   Code   RO         6663    i.prvTaskExitError  port.o
+    0x08007ab8   0x08007ab8   0x0000003c   Code   RO         5933    i.prvTaskIsTaskSuspended  tasks.o
+    0x08007af4   0x08007af4   0x0000006a   Code   RO         5620    i.prvUnlockQueue    queue.o
     0x08007b5e   0x08007b5e   0x0000012c   Code   RO         5051    i.put_fat           ff.o
     0x08007c8a   0x08007c8a   0x00000002   PAD
-    0x08007c8c   0x08007c8c   0x000000e4   Code   RO         6562    i.pvPortMalloc      heap_4.o
-    0x08007d70   0x08007d70   0x00000018   Code   RO         5897    i.pvTaskIncrementMutexHeldCount  tasks.o
-    0x08007d88   0x08007d88   0x00000030   Code   RO         6624    i.pxPortInitialiseStack  port.o
+    0x08007c8c   0x08007c8c   0x000000e4   Code   RO         6602    i.pvPortMalloc      heap_4.o
+    0x08007d70   0x08007d70   0x00000018   Code   RO         5934    i.pvTaskIncrementMutexHeldCount  tasks.o
+    0x08007d88   0x08007d88   0x00000030   Code   RO         6664    i.pxPortInitialiseStack  port.o
     0x08007db8   0x08007db8   0x00000074   Code   RO         5054    i.remove_chain      ff.o
     0x08007e2c   0x08007e2c   0x00000020   Code   RO          303    i.setFileName       freertos.o
     0x08007e4c   0x08007e4c   0x00000028   Code   RO         5055    i.st_clust          ff.o
@@ -4560,59 +4560,59 @@ Memory Map of the image
     0x08007ecc   0x08007ecc   0x00000088   Code   RO         5058    i.sync_fs           ff.o
     0x08007f54   0x08007f54   0x00000052   Code   RO         5059    i.sync_window       ff.o
     0x08007fa6   0x08007fa6   0x00000018   Code   RO         5060    i.unlock_fs         ff.o
-    0x08007fbe   0x08007fbe   0x00000026   Code   RO         5544    i.uxListRemove      list.o
+    0x08007fbe   0x08007fbe   0x00000026   Code   RO         5575    i.uxListRemove      list.o
     0x08007fe4   0x08007fe4   0x00000018   Code   RO          306    i.vApplicationGetIdleTaskMemory  freertos.o
     0x08007ffc   0x08007ffc   0x000000f4   Code   RO          307    i.vConsumer         freertos.o
-    0x080080f0   0x080080f0   0x00000016   Code   RO         5545    i.vListInitialise   list.o
-    0x08008106   0x08008106   0x00000006   Code   RO         5546    i.vListInitialiseItem  list.o
-    0x0800810c   0x0800810c   0x00000030   Code   RO         5547    i.vListInsert       list.o
-    0x0800813c   0x0800813c   0x00000018   Code   RO         5548    i.vListInsertEnd    list.o
-    0x08008154   0x08008154   0x00000048   Code   RO         6626    i.vPortEnterCritical  port.o
-    0x0800819c   0x0800819c   0x0000002c   Code   RO         6627    i.vPortExitCritical  port.o
-    0x080081c8   0x080081c8   0x00000064   Code   RO         6563    i.vPortFree         heap_4.o
-    0x0800822c   0x0800822c   0x00000024   Code   RO         6628    i.vPortSetupTimerInterrupt  port.o
-    0x08008250   0x08008250   0x0000005c   Code   RO         6629    i.vPortValidateInterruptPriority  port.o
+    0x080080f0   0x080080f0   0x00000016   Code   RO         5576    i.vListInitialise   list.o
+    0x08008106   0x08008106   0x00000006   Code   RO         5577    i.vListInitialiseItem  list.o
+    0x0800810c   0x0800810c   0x00000030   Code   RO         5578    i.vListInsert       list.o
+    0x0800813c   0x0800813c   0x00000018   Code   RO         5579    i.vListInsertEnd    list.o
+    0x08008154   0x08008154   0x00000048   Code   RO         6666    i.vPortEnterCritical  port.o
+    0x0800819c   0x0800819c   0x0000002c   Code   RO         6667    i.vPortExitCritical  port.o
+    0x080081c8   0x080081c8   0x00000064   Code   RO         6603    i.vPortFree         heap_4.o
+    0x0800822c   0x0800822c   0x00000024   Code   RO         6668    i.vPortSetupTimerInterrupt  port.o
+    0x08008250   0x08008250   0x0000005c   Code   RO         6669    i.vPortValidateInterruptPriority  port.o
     0x080082ac   0x080082ac   0x00000040   Code   RO          308    i.vProducer         freertos.o
-    0x080082ec   0x080082ec   0x00000032   Code   RO         5594    i.vQueueDelete      queue.o
+    0x080082ec   0x080082ec   0x00000032   Code   RO         5625    i.vQueueDelete      queue.o
     0x0800831e   0x0800831e   0x00000002   PAD
-    0x08008320   0x08008320   0x00000028   Code   RO         5595    i.vQueueUnregisterQueue  queue.o
-    0x08008348   0x08008348   0x00000010   Code   RO         5906    i.vTaskInternalSetTimeOutState  tasks.o
-    0x08008358   0x08008358   0x0000000c   Code   RO         5907    i.vTaskMissedYield  tasks.o
-    0x08008364   0x08008364   0x00000034   Code   RO         5909    i.vTaskPlaceOnEventList  tasks.o
-    0x08008398   0x08008398   0x000000b8   Code   RO         5911    i.vTaskPriorityDisinheritAfterTimeout  tasks.o
-    0x08008450   0x08008450   0x00000080   Code   RO         5914    i.vTaskResume       tasks.o
-    0x080084d0   0x080084d0   0x00000070   Code   RO         5916    i.vTaskStartScheduler  tasks.o
-    0x08008540   0x08008540   0x000000c0   Code   RO         5917    i.vTaskSuspend      tasks.o
-    0x08008600   0x08008600   0x00000010   Code   RO         5918    i.vTaskSuspendAll   tasks.o
-    0x08008610   0x08008610   0x00000060   Code   RO         5919    i.vTaskSwitchContext  tasks.o
+    0x08008320   0x08008320   0x00000028   Code   RO         5626    i.vQueueUnregisterQueue  queue.o
+    0x08008348   0x08008348   0x00000010   Code   RO         5943    i.vTaskInternalSetTimeOutState  tasks.o
+    0x08008358   0x08008358   0x0000000c   Code   RO         5944    i.vTaskMissedYield  tasks.o
+    0x08008364   0x08008364   0x00000034   Code   RO         5946    i.vTaskPlaceOnEventList  tasks.o
+    0x08008398   0x08008398   0x000000b8   Code   RO         5948    i.vTaskPriorityDisinheritAfterTimeout  tasks.o
+    0x08008450   0x08008450   0x00000080   Code   RO         5951    i.vTaskResume       tasks.o
+    0x080084d0   0x080084d0   0x00000070   Code   RO         5953    i.vTaskStartScheduler  tasks.o
+    0x08008540   0x08008540   0x000000c0   Code   RO         5954    i.vTaskSuspend      tasks.o
+    0x08008600   0x08008600   0x00000010   Code   RO         5955    i.vTaskSuspendAll   tasks.o
+    0x08008610   0x08008610   0x00000060   Code   RO         5956    i.vTaskSwitchContext  tasks.o
     0x08008670   0x08008670   0x00000046   Code   RO         5061    i.validate          ff.o
     0x080086b6   0x080086b6   0x00000002   PAD
-    0x080086b8   0x080086b8   0x000000c0   Code   RO         6630    i.xPortStartScheduler  port.o
-    0x08008778   0x08008778   0x0000004c   Code   RO         5598    i.xQueueGenericCreate  queue.o
-    0x080087c4   0x080087c4   0x00000076   Code   RO         5599    i.xQueueGenericCreateStatic  queue.o
+    0x080086b8   0x080086b8   0x000000c0   Code   RO         6670    i.xPortStartScheduler  port.o
+    0x08008778   0x08008778   0x0000004c   Code   RO         5629    i.xQueueGenericCreate  queue.o
+    0x080087c4   0x080087c4   0x00000076   Code   RO         5630    i.xQueueGenericCreateStatic  queue.o
     0x0800883a   0x0800883a   0x00000002   PAD
-    0x0800883c   0x0800883c   0x00000098   Code   RO         5600    i.xQueueGenericReset  queue.o
-    0x080088d4   0x080088d4   0x00000170   Code   RO         5601    i.xQueueGenericSend  queue.o
-    0x08008a44   0x08008a44   0x000000cc   Code   RO         5602    i.xQueueGenericSendFromISR  queue.o
-    0x08008b10   0x08008b10   0x000000ac   Code   RO         5603    i.xQueueGiveFromISR  queue.o
-    0x08008bbc   0x08008bbc   0x00000148   Code   RO         5608    i.xQueueReceive     queue.o
-    0x08008d04   0x08008d04   0x000000a8   Code   RO         5609    i.xQueueReceiveFromISR  queue.o
-    0x08008dac   0x08008dac   0x0000018c   Code   RO         5610    i.xQueueSemaphoreTake  queue.o
-    0x08008f38   0x08008f38   0x00000080   Code   RO         5920    i.xTaskCheckForTimeOut  tasks.o
-    0x08008fb8   0x08008fb8   0x0000005a   Code   RO         5921    i.xTaskCreate       tasks.o
-    0x08009012   0x08009012   0x0000005e   Code   RO         5922    i.xTaskCreateStatic  tasks.o
-    0x08009070   0x08009070   0x000000d4   Code   RO         5923    i.xTaskGenericNotify  tasks.o
-    0x08009144   0x08009144   0x000000fc   Code   RO         5924    i.xTaskGenericNotifyFromISR  tasks.o
-    0x08009240   0x08009240   0x0000001c   Code   RO         5926    i.xTaskGetSchedulerState  tasks.o
-    0x0800925c   0x0800925c   0x0000000c   Code   RO         5927    i.xTaskGetTickCount  tasks.o
-    0x08009268   0x08009268   0x00000010   Code   RO         5928    i.xTaskGetTickCountFromISR  tasks.o
-    0x08009278   0x08009278   0x000000cc   Code   RO         5929    i.xTaskIncrementTick  tasks.o
-    0x08009344   0x08009344   0x0000008c   Code   RO         5931    i.xTaskNotifyWait   tasks.o
-    0x080093d0   0x080093d0   0x000000a8   Code   RO         5932    i.xTaskPriorityDisinherit  tasks.o
-    0x08009478   0x08009478   0x00000098   Code   RO         5933    i.xTaskPriorityInherit  tasks.o
-    0x08009510   0x08009510   0x00000078   Code   RO         5934    i.xTaskRemoveFromEventList  tasks.o
-    0x08009588   0x08009588   0x000000c8   Code   RO         5935    i.xTaskResumeAll    tasks.o
-    0x08009650   0x08009650   0x00000094   Code   RO         5936    i.xTaskResumeFromISR  tasks.o
+    0x0800883c   0x0800883c   0x00000098   Code   RO         5631    i.xQueueGenericReset  queue.o
+    0x080088d4   0x080088d4   0x00000170   Code   RO         5632    i.xQueueGenericSend  queue.o
+    0x08008a44   0x08008a44   0x000000cc   Code   RO         5633    i.xQueueGenericSendFromISR  queue.o
+    0x08008b10   0x08008b10   0x000000ac   Code   RO         5634    i.xQueueGiveFromISR  queue.o
+    0x08008bbc   0x08008bbc   0x00000148   Code   RO         5639    i.xQueueReceive     queue.o
+    0x08008d04   0x08008d04   0x000000a8   Code   RO         5640    i.xQueueReceiveFromISR  queue.o
+    0x08008dac   0x08008dac   0x0000018c   Code   RO         5641    i.xQueueSemaphoreTake  queue.o
+    0x08008f38   0x08008f38   0x00000080   Code   RO         5957    i.xTaskCheckForTimeOut  tasks.o
+    0x08008fb8   0x08008fb8   0x0000005a   Code   RO         5958    i.xTaskCreate       tasks.o
+    0x08009012   0x08009012   0x0000005e   Code   RO         5959    i.xTaskCreateStatic  tasks.o
+    0x08009070   0x08009070   0x000000d4   Code   RO         5960    i.xTaskGenericNotify  tasks.o
+    0x08009144   0x08009144   0x000000fc   Code   RO         5961    i.xTaskGenericNotifyFromISR  tasks.o
+    0x08009240   0x08009240   0x0000001c   Code   RO         5963    i.xTaskGetSchedulerState  tasks.o
+    0x0800925c   0x0800925c   0x0000000c   Code   RO         5964    i.xTaskGetTickCount  tasks.o
+    0x08009268   0x08009268   0x00000010   Code   RO         5965    i.xTaskGetTickCountFromISR  tasks.o
+    0x08009278   0x08009278   0x000000cc   Code   RO         5966    i.xTaskIncrementTick  tasks.o
+    0x08009344   0x08009344   0x0000008c   Code   RO         5968    i.xTaskNotifyWait   tasks.o
+    0x080093d0   0x080093d0   0x000000a8   Code   RO         5969    i.xTaskPriorityDisinherit  tasks.o
+    0x08009478   0x08009478   0x00000098   Code   RO         5970    i.xTaskPriorityInherit  tasks.o
+    0x08009510   0x08009510   0x00000078   Code   RO         5971    i.xTaskRemoveFromEventList  tasks.o
+    0x08009588   0x08009588   0x000000c8   Code   RO         5972    i.xTaskResumeAll    tasks.o
+    0x08009650   0x08009650   0x00000094   Code   RO         5973    i.xTaskResumeFromISR  tasks.o
     0x080096e4   0x080096e4   0x00000044   Data   RO          310    .constdata          freertos.o
     0x08009728   0x08009728   0x00000014   Data   RO         1000    .constdata          sd_diskio.o
     0x0800973c   0x0800973c   0x00000010   Data   RO         1001    .constdata          sd_diskio.o
@@ -4622,29 +4622,29 @@ Memory Map of the image
     0x0800976c   0x0800976c   0x0000009c   Data   RO         5063    .constdata          ff.o
     0x08009808   0x08009808   0x00000015   Data   RO          311    .conststring        freertos.o
     0x0800981d   0x0800981d   0x00000001   PAD
-    0x0800981e   0x0800981e   0x00000e10   Data   RO         6811    .rodata.armBitRevIndexTable1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800a62e   0x0800a62e   0x000001a0   Data   RO         6808    .rodata.armBitRevIndexTable128  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800a7ce   0x0800a7ce   0x00000028   Data   RO         6805    .rodata.armBitRevIndexTable16  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800a7f6   0x0800a7f6   0x00001dc0   Data   RO         6812    .rodata.armBitRevIndexTable2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800c5b6   0x0800c5b6   0x00000370   Data   RO         6809    .rodata.armBitRevIndexTable256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800c926   0x0800c926   0x00000060   Data   RO         6806    .rodata.armBitRevIndexTable32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800c986   0x0800c986   0x00000380   Data   RO         6810    .rodata.armBitRevIndexTable512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800981e   0x0800981e   0x00000e10   Data   RO         6851    .rodata.armBitRevIndexTable1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800a62e   0x0800a62e   0x000001a0   Data   RO         6848    .rodata.armBitRevIndexTable128  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800a7ce   0x0800a7ce   0x00000028   Data   RO         6845    .rodata.armBitRevIndexTable16  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800a7f6   0x0800a7f6   0x00001dc0   Data   RO         6852    .rodata.armBitRevIndexTable2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800c5b6   0x0800c5b6   0x00000370   Data   RO         6849    .rodata.armBitRevIndexTable256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800c926   0x0800c926   0x00000060   Data   RO         6846    .rodata.armBitRevIndexTable32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800c986   0x0800c986   0x00000380   Data   RO         6850    .rodata.armBitRevIndexTable512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
     0x0800cd06   0x0800cd06   0x00000002   PAD
-    0x0800cd08   0x0800cd08   0x00002000   Data   RO         6784    .rodata.twiddleCoef_1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800ed08   0x0800ed08   0x00000400   Data   RO         6781    .rodata.twiddleCoef_128  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800f108   0x0800f108   0x00000080   Data   RO         6778    .rodata.twiddleCoef_16  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0800f188   0x0800f188   0x00004000   Data   RO         6785    .rodata.twiddleCoef_2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08013188   0x08013188   0x00000800   Data   RO         6782    .rodata.twiddleCoef_256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08013988   0x08013988   0x00000100   Data   RO         6779    .rodata.twiddleCoef_32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08013a88   0x08013a88   0x00001000   Data   RO         6783    .rodata.twiddleCoef_512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08014a88   0x08014a88   0x00001000   Data   RO         6828    .rodata.twiddleCoef_rfft_1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08015a88   0x08015a88   0x00002000   Data   RO         6829    .rodata.twiddleCoef_rfft_2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08017a88   0x08017a88   0x00000400   Data   RO         6826    .rodata.twiddleCoef_rfft_256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08017e88   0x08017e88   0x00000080   Data   RO         6823    .rodata.twiddleCoef_rfft_32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x08017f08   0x08017f08   0x00004000   Data   RO         6830    .rodata.twiddleCoef_rfft_4096  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0801bf08   0x0801bf08   0x00000800   Data   RO         6827    .rodata.twiddleCoef_rfft_512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0801c708   0x0801c708   0x00000100   Data   RO         6824    .rodata.twiddleCoef_rfft_64  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
-    0x0801c808   0x0801c808   0x00000020   Data   RO         7229    Region$$Table       anon$$obj.o
+    0x0800cd08   0x0800cd08   0x00002000   Data   RO         6824    .rodata.twiddleCoef_1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800ed08   0x0800ed08   0x00000400   Data   RO         6821    .rodata.twiddleCoef_128  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800f108   0x0800f108   0x00000080   Data   RO         6818    .rodata.twiddleCoef_16  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0800f188   0x0800f188   0x00004000   Data   RO         6825    .rodata.twiddleCoef_2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08013188   0x08013188   0x00000800   Data   RO         6822    .rodata.twiddleCoef_256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08013988   0x08013988   0x00000100   Data   RO         6819    .rodata.twiddleCoef_32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08013a88   0x08013a88   0x00001000   Data   RO         6823    .rodata.twiddleCoef_512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08014a88   0x08014a88   0x00001000   Data   RO         6868    .rodata.twiddleCoef_rfft_1024  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08015a88   0x08015a88   0x00002000   Data   RO         6869    .rodata.twiddleCoef_rfft_2048  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08017a88   0x08017a88   0x00000400   Data   RO         6866    .rodata.twiddleCoef_rfft_256  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08017e88   0x08017e88   0x00000080   Data   RO         6863    .rodata.twiddleCoef_rfft_32  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x08017f08   0x08017f08   0x00004000   Data   RO         6870    .rodata.twiddleCoef_rfft_4096  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0801bf08   0x0801bf08   0x00000800   Data   RO         6867    .rodata.twiddleCoef_rfft_512  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0801c708   0x0801c708   0x00000100   Data   RO         6864    .rodata.twiddleCoef_rfft_64  arm_cortexM7lfsp_math.lib(arm_common_tables.o)
+    0x0801c808   0x0801c808   0x00000020   Data   RO         7269    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0801c828, Size: 0x00047b28, Max: 0x00050000, ABSOLUTE)
@@ -4660,10 +4660,10 @@ Memory Map of the image
     0x2000004c   0x0801c874   0x0000000c   Data   RW         2347    .data               stm32f7xx_hal.o
     0x20000058   0x0801c880   0x00000004   Data   RW         4914    .data               system_stm32f7xx.o
     0x2000005c   0x0801c884   0x00000008   Data   RW         5064    .data               ff.o
-    0x20000064   0x0801c88c   0x0000003c   Data   RW         5938    .data               tasks.o
-    0x200000a0   0x0801c8c8   0x00000018   Data   RW         6568    .data               heap_4.o
-    0x200000b8   0x0801c8e0   0x0000000c   Data   RW         6631    .data               port.o
-    0x200000c4   0x0801c8ec   0x00000004   Data   RW         7206    .data               mc_w.l(errno.o)
+    0x20000064   0x0801c88c   0x0000003c   Data   RW         5975    .data               tasks.o
+    0x200000a0   0x0801c8c8   0x00000018   Data   RW         6608    .data               heap_4.o
+    0x200000b8   0x0801c8e0   0x0000000c   Data   RW         6671    .data               port.o
+    0x200000c4   0x0801c8ec   0x00000004   Data   RW         7246    .data               mc_w.l(errno.o)
     0x200000c8        -       0x00012354   Zero   RW          309    .bss                freertos.o
     0x2001241c        -       0x00000144   Zero   RW          480    .bss                sdmmc.o
     0x20012560        -       0x00000040   Zero   RW          522    .bss                tim.o
@@ -4673,9 +4673,9 @@ Memory Map of the image
     0x200127c8        -       0x00000200   Zero   RW          999    .bss                sd_diskio.o
     0x200129c8        -       0x00000020   Zero   RW         5062    .bss                ff.o
     0x200129e8        -       0x0000000c   Zero   RW         5349    .bss                ff_gen_drv.o
-    0x200129f4        -       0x00000040   Zero   RW         5611    .bss                queue.o
-    0x20012a34        -       0x000000f0   Zero   RW         5937    .bss                tasks.o
-    0x20012b24        -       0x00034800   Zero   RW         6567    .bss                heap_4.o
+    0x200129f4        -       0x00000040   Zero   RW         5642    .bss                queue.o
+    0x20012a34        -       0x000000f0   Zero   RW         5974    .bss                tasks.o
+    0x20012b24        -       0x00034800   Zero   RW         6607    .bss                heap_4.o
     0x20047324   0x0801c8f0   0x00000004   PAD
     0x20047328        -       0x00000800   Zero   RW            1    STACK               startup_stm32f746xx.o
 
@@ -4687,51 +4687,52 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       284         28          0          0        168       1787   adc.o
-       180         22          0          0          0       6003   bsp_driver_sd.o
-      1550         42          0          0          0      43908   cmsis_os.o
-       140         26          0          0          0       3697   diskio.o
-       108          4          0          0          0        794   dma.o
-         0          0          0          0          0      18108   event_groups.o
-        32         10          0          5          0       8232   fatfs.o
-      5434         82        156          8         32      41039   ff.o
-        70          6          0          0         12       1659   ff_gen_drv.o
-      1118        188         89         56      74580      30768   freertos.o
-       144         10          0          0          0        959   gpio.o
+       284         28          0          0        168       1907   adc.o
+       180         22          0          0          0       6343   bsp_driver_sd.o
+      1550         42          0          0          0      46336   cmsis_os.o
+         0          0          0          0          0       7376   croutine.o
+       140         26          0          0          0       3877   diskio.o
+       108          4          0          0          0        854   dma.o
+         0          0          0          0          0      20560   event_groups.o
+        32         10          0          5          0       8424   fatfs.o
+      5434         82        156          8         32      42339   ff.o
+        70          6          0          0         12       1751   ff_gen_drv.o
+      1118        188         89         56      74580      31344   freertos.o
+       144         10          0          0          0       1023   gpio.o
        484         24          0         24     215040       7343   heap_4.o
        138          0          0          0          0       3510   list.o
-       378         40          0          1          0     918959   main.o
+       378         40          0          1          0     917315   main.o
        774         80          0         12          0      11841   port.o
-      2374         24          0          0         64      20499   queue.o
-       620         48         36          8        512      20537   sd_diskio.o
-       400         36          0          0        324       1958   sdmmc.o
+      2374         24          0          0         64      22955   queue.o
+       620         48         36          8        512      20941   sd_diskio.o
+       400         36          0          0        324       2082   sdmmc.o
         36          8        456          0       2048        828   startup_stm32f746xx.o
-       108         18          0         12          0       8314   stm32f7xx_hal.o
-      1590         60          0          0          0       8418   stm32f7xx_hal_adc.o
-         2          0          0          0          0        961   stm32f7xx_hal_adc_ex.o
-       160         12          0          0          0      38158   stm32f7xx_hal_cortex.o
-      1116         16          8          0          0       7913   stm32f7xx_hal_dma.o
-       496         54          0          0          0       3161   stm32f7xx_hal_gpio.o
-        68          4          0          0          0        858   stm32f7xx_hal_msp.o
-       108          8          0          0          0       1252   stm32f7xx_hal_pwr_ex.o
-      1348         72          0          0          0       5749   stm32f7xx_hal_rcc.o
-      1276         16          0          0          0       2268   stm32f7xx_hal_rcc_ex.o
-      2850         24          0          0          0      17115   stm32f7xx_hal_sd.o
-      1068         62          0          0          0      10610   stm32f7xx_hal_tim.o
-       102          8          0          0          0       3008   stm32f7xx_hal_tim_ex.o
-       116         16          0          0         64       1403   stm32f7xx_hal_timebase_tim.o
-      1936        102          0          0          0      14403   stm32f7xx_hal_uart.o
-       156         72          0          0          0       8388   stm32f7xx_it.o
-      1626         42          0          0          0      22672   stm32f7xx_ll_sdmmc.o
-        62          0          0          0          0       3320   syscall.o
-        84         16         24          4          0       1227   system_stm32f7xx.o
+       108         18          0         12          0       8526   stm32f7xx_hal.o
+      1590         60          0          0          0       8790   stm32f7xx_hal_adc.o
+         2          0          0          0          0       1025   stm32f7xx_hal_adc_ex.o
+       160         12          0          0          0      38318   stm32f7xx_hal_cortex.o
+      1116         16          8          0          0       8221   stm32f7xx_hal_dma.o
+       496         54          0          0          0       3285   stm32f7xx_hal_gpio.o
+        68          4          0          0          0        918   stm32f7xx_hal_msp.o
+       108          8          0          0          0       1316   stm32f7xx_hal_pwr_ex.o
+      1348         72          0          0          0       5965   stm32f7xx_hal_rcc.o
+      1276         16          0          0          0       2328   stm32f7xx_hal_rcc_ex.o
+      2850         24          0          0          0      17771   stm32f7xx_hal_sd.o
+      1068         62          0          0          0      11074   stm32f7xx_hal_tim.o
+       102          8          0          0          0       3160   stm32f7xx_hal_tim_ex.o
+       116         16          0          0         64       1495   stm32f7xx_hal_timebase_tim.o
+      1936        102          0          0          0      15031   stm32f7xx_hal_uart.o
+       156         72          0          0          0       8936   stm32f7xx_it.o
+      1626         42          0          0          0      23612   stm32f7xx_ll_sdmmc.o
+        62          0          0          0          0       3504   syscall.o
+        84         16         24          4          0       1323   system_stm32f7xx.o
       3506        254          0         60        240      33018   tasks.o
-       204         20          0          0         64       1690   tim.o
-       276         28          0          0        320       1892   usart.o
-       290          4          0          0          0       2420   wav.o
+       204         20          0          0         64       1814   tim.o
+       276         28          0          0        320       2008   usart.o
+       290          4          0          0          0       2544   wav.o
 
     ----------------------------------------------------------------------
-     32882       1586        802        196     293472    1340647   Object Totals
+     32882       1586        802        196     293472    1362931   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         70          0          1          6          4          0   (incl. Padding)
 
@@ -4790,8 +4791,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     38172       1624      78604        200     293472    1335232   Grand Totals
-     38172       1624      78604        200     293472    1335232   ELF Image Totals
+     38172       1624      78604        200     293472    1357516   Grand Totals
+     38172       1624      78604        200     293472    1357516   ELF Image Totals
      38172       1624      78604        200          0          0   ROM Totals
 
 ==============================================================================

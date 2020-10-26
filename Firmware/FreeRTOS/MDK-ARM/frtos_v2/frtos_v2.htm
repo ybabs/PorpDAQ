@@ -3,7 +3,7 @@
 <title>Static Call Graph - [frtos_v2\frtos_v2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image frtos_v2\frtos_v2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sun Sep 13 02:42:13 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Sep 22 20:20:36 2020
 <BR><P>
 <H3>Maximum Stack Usage =        456 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1798,7 +1798,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f746xx.o(RESET)
 </UL>
-<P><STRONG><a name="[138]"></a>SystemClock_Config</STRONG> (Thumb, 150 bytes, Stack size 224 bytes, main.o(i.SystemClock_Config))
+<P><STRONG><a name="[138]"></a>SystemClock_Config</STRONG> (Thumb, 152 bytes, Stack size 224 bytes, main.o(i.SystemClock_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
@@ -2436,7 +2436,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[17f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
 </UL>
 
-<P><STRONG><a name="[85]"></a>vConsumer</STRONG> (Thumb, 214 bytes, Stack size 16 bytes, freertos.o(i.vConsumer))
+<P><STRONG><a name="[85]"></a>vConsumer</STRONG> (Thumb, 218 bytes, Stack size 16 bytes, freertos.o(i.vConsumer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456<LI>Call Chain = vConsumer &rArr; computeFFT &rArr; arm_rfft_fast_f32 &rArr; arm_cfft_f32 &rArr; arm_cfft_radix8by4_f32 &rArr; arm_radix8_butterfly_f32
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
