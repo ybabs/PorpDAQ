@@ -59,8 +59,11 @@ uint16_t tmp_array[FFT_SIZE]; // temporarily calculate FFT of each 1024 points w
 uint16_t adc_values[ADC_BUFFER_LENGTH];
 uint8_t uart_tx_buffer[UART_TX_BUFFER_SIZE];
 
+uint8_t prod_signal = 0x01; // signal for producer task
+
 int waypoint_index = 0;  // Appended to wav file.
-char WAV_FILE[8] = "0.wav";
+//char WAV_FILE[8] = "0.wav";
+char WAV_FILE[8];
 FIL wavFile;
 uint32_t bytes_written = 0;
 uint32_t file_size;
@@ -220,10 +223,10 @@ void computeFFT(void)
 
 void vProducer(void const * argument)
 {
-	mountSD();
+	//mountSD();
 	for(;;)
 	{		
-		prodEvent = osSignalWait(0x01, osWaitForever);
+		prodEvent = osSignalWait(prod_signal, osWaitForever);
 		if(prodEvent.status == osEventSignal)
 		{
 			 startADC();

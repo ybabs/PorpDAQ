@@ -1,3 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 142-0701-851-SamacSys_Parts
+F http://www.belfuse.com/resources/Johnson/drawings/dr-1420701851.pdf
+$ENDCMP
+#
+$CMP LMH6643MAX_NOPB-SamacSys_Parts
+F http://www.ti.com/lit/gpn/lmh6643
+$ENDCMP
+#
+$CMP TL1105CF160Q_0-SamacSys_Parts
+F https://componentsearchengine.com/Datasheets/1/TL1105CF160Q.pdf
+$ENDCMP
+#
+$CMP TPS65133DPDR-SamacSys_Parts
+F http://www.ti.com/lit/ds/symlink/tps65133.pdf
+$ENDCMP
+#
 #End Doc Library
