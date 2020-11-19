@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/CM4IO/libraries/CM4IO.pretty")(options "")(descr ""))
+)
