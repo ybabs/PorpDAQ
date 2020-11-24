@@ -33,6 +33,7 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
@@ -50,17 +51,16 @@
       22,
       23,
       24,
+      25,
       26,
       27,
       28,
       29,
       30,
-      31,
-      32,
       36,
       37
     ],
-    "visible_layers": "fffffff_ffffffff"
+    "visible_layers": "000ffff_80000007"
   },
   "meta": {
     "filename": "F7_100pin.kicad_prl",

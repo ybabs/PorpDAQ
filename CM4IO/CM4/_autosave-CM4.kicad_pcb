@@ -577,7 +577,7 @@
     (property "Sheet name" "H7MCU")
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/aedf795b-b3ee-4e1e-80b9-ca95b1c8fbd5")
     (attr through_hole)
-    (fp_text reference "J3" (at 0.635 -1.695 90) (layer "F.SilkS")
+    (fp_text reference "J3" (at 0.635 -1.695 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 50e0a979-fa20-448e-8ea8-7fca21d490bc)
     )
@@ -646,7 +646,7 @@
     (property "Sheet name" "H7MCU")
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/c232c62b-ded7-4491-9bc8-060fc077cb94")
     (attr smd)
-    (fp_text reference "D1" (at 0 -2.5) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 -2.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 32387e37-a651-4970-9a00-3f867dfbe5b2)
     )
@@ -694,7 +694,7 @@
     (property "Sheet name" "")
     (path "/f6a02b42-e2b8-44fe-8300-36a7ca24ae2b")
     (attr exclude_from_pos_files)
-    (fp_text reference "H3" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H3" (at 0 -3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24f4e54f-ee51-4daf-a97f-cc1100c3b37c)
     )
@@ -719,7 +719,7 @@
     (property "Sheet name" "")
     (path "/01f4a91b-e6cb-487a-9cf2-09e6de405e98")
     (attr exclude_from_pos_files)
-    (fp_text reference "H2" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H2" (at 0 -3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64a8cfcc-82e9-4b8c-97fb-a057da3624d2)
     )
@@ -1033,7 +1033,7 @@
     (property "Sheet name" "")
     (path "/1216ec6d-d46d-476f-be45-c453ac62af4f")
     (attr exclude_from_pos_files)
-    (fp_text reference "H4" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H4" (at 0 -3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0645466-dccf-4fc1-9270-7eccbbac4ad1)
     )
@@ -1181,7 +1181,7 @@
     (property "Sheet name" "H7MCU")
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/d00b3e99-8c81-4cfb-82e7-7610c5232162")
     (attr smd)
-    (fp_text reference "BT1" (at 0 -8) (layer "F.SilkS")
+    (fp_text reference "BT1" (at 0 -8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 95b6982b-6c70-4259-8834-139f1340ad25)
     )
@@ -1342,7 +1342,7 @@
     (property "Sheet name" "CM4_GPIO")
     (path "/427d88c3-0fbc-429f-bb2e-bf4df63ddc43/716e31e9-058c-411b-9d15-2a4bdffd78d5")
     (attr smd)
-    (fp_text reference "J5" (at 0 -4.4 90) (layer "F.SilkS")
+    (fp_text reference "J5" (at 0 -4.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94fc8755-db89-46e9-8a90-9ff5279eaab5)
     )
@@ -1948,7 +1948,7 @@
     (property "Sheet name" "H7MCU")
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/d6e9bfa4-7cbc-466f-bb41-9f9ba405118b")
     (attr through_hole)
-    (fp_text reference "S1" (at 0 0 180) (layer "F.SilkS")
+    (fp_text reference "S1" (at 0 0 180) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp e70414da-4695-4345-b79c-2932d0c90ce8)
     )
@@ -2667,7 +2667,7 @@
     (property "Sheet name" "")
     (path "/ceeb6cf4-94f3-46da-8334-e350dfb0366c")
     (attr exclude_from_pos_files)
-    (fp_text reference "H1" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H1" (at 0 -3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2275d59c-90b4-46c3-952f-a5e2f78f53b2)
     )
@@ -6270,5 +6270,12 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 65.75 82) (end 145.4 82) (layer "Edge.Cuts") (width 0.1) (tstamp 26e463cd-0e76-4c68-9f70-fcf98d336c8f))
+  (gr_arc (start 66.093774 132.289033) (end 62.250001 133.249999) (angle -74.60724052) (layer "Edge.Cuts") (width 0.1) (tstamp 2795b92b-090d-44ad-996c-590cc99a96ca))
+  (gr_line (start 62.25 133.25) (end 62.25 85.5) (layer "Edge.Cuts") (width 0.1) (tstamp 28378ac9-aec0-4453-a075-b19f9b1172f4))
+  (gr_line (start 151 84.75) (end 151 133.5) (layer "Edge.Cuts") (width 0.1) (tstamp 5ea3008d-bc0f-4d32-9245-f4e901bdcf5f))
+  (gr_line (start 146 136.25) (end 66 136.25) (layer "Edge.Cuts") (width 0.1) (tstamp 7265da51-c36c-472f-af50-d6ae6a883a27))
+  (gr_arc (start 65.75 85.5) (end 62.25 85.5) (angle 90) (layer "Edge.Cuts") (width 0.1) (tstamp 779545a3-164a-48c4-8758-dcac1ba427eb))
 
 )
