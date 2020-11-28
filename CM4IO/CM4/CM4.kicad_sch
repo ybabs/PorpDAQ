@@ -38,8 +38,6 @@
   )
 
   (junction (at 59.944 76.9112) (diameter 1.016) (color 0 0 0 0))
-  (junction (at 152.2476 102.0572) (diameter 1.016) (color 0 0 0 0))
-  (junction (at 154.2288 105.0544) (diameter 1.016) (color 0 0 0 0))
 
   (wire (pts (xy 55.4228 43.0784) (xy 160.5788 43.0784))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -62,18 +60,6 @@
   (wire (pts (xy 70.3072 88.7476) (xy 75.4888 88.7476))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 70.3072 91.5924) (xy 74.0664 91.5924))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 70.3072 93.8784) (xy 75.7428 93.8784))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 74.0664 91.5924) (xy 74.0664 114.4524))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 74.0664 114.4524) (xy 152.2476 114.4524))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 74.168 76.9112) (xy 59.944 76.9112))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -90,12 +76,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 75.4888 91.948) (xy 77.3684 91.948))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 75.7428 93.8784) (xy 75.7428 116.1796))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 75.7428 116.1796) (xy 154.2288 116.1796))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 77.3684 80.264) (xy 74.168 80.264))
@@ -134,25 +114,13 @@
   (wire (pts (xy 148.9456 98.298) (xy 199.9488 98.298))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 148.9456 105.0544) (xy 154.2288 105.0544))
+  (wire (pts (xy 148.9456 102.0572) (xy 154.3812 102.0572))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 152.2476 102.0572) (xy 148.9456 102.0572))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 152.2476 114.4524) (xy 152.2476 102.0572))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 154.2288 105.0544) (xy 155.448 105.0544))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 154.2288 116.1796) (xy 154.2288 105.0544))
+  (wire (pts (xy 148.9456 105.0544) (xy 155.448 105.0544))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 154.3812 62.5856) (xy 154.3812 102.0572))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 154.3812 102.0572) (xy 152.2476 102.0572))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 155.448 65.0748) (xy 155.448 105.0544))
@@ -333,12 +301,6 @@
     (pin "+3.3V" output (at 59.944 79.0448 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (pin "USB_D+" bidirectional (at 70.3072 91.5924 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (pin "USB_D-" bidirectional (at 70.3072 93.8784 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
     (pin "5V" output (at 55.4228 79.0448 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -395,9 +357,6 @@
     )
     (path "/459be312-3689-4746-960b-38b53c51f6ab/c9acc524-b509-4f43-8261-cd3b1c89735e"
       (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/459be312-3689-4746-960b-38b53c51f6ab/77960939-5528-472f-8d5f-6588d22f7d0c"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/459be312-3689-4746-960b-38b53c51f6ab/329e0bdd-b54a-45ca-96f7-6adb6b0ea95b"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
@@ -519,8 +478,8 @@
     (path "/459be312-3689-4746-960b-38b53c51f6ab/89fca9a1-093b-4cef-beb4-87072c0d5d86"
       (reference "R28") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/459be312-3689-4746-960b-38b53c51f6ab/d5f5b805-dfa2-4f0f-9bc9-af4f5358e95d"
-      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/8992e62f-11a6-4957-9f45-bc6fd5c7953f"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/43b4bed3-7448-4671-971e-045ff47edc51"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -570,8 +529,11 @@
     (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/25c5a39f-e2f9-4884-8a60-398efa8e1ec8"
       (reference "IC3") (unit 1) (value "LMH6643MAX_NOPB") (footprint "SamacSys_Parts:SOIC127P600X175-8N")
     )
-    (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/00d884b9-7832-4732-b051-875e7a51542b"
-      (reference "J1") (unit 1) (value "901-144-8RFX") (footprint "9011448RFX")
+    (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/8cedd2fb-2aae-4292-94c1-e3c29b678f94"
+      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount")
+    )
+    (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/7ccf9aed-fc01-4747-829f-b2699cf5e207"
+      (reference "J6") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/7d743eaf-baa5-43f2-8d69-669f9701f418/19bd3c4a-12f9-4aa5-a2f0-e700ed369ab6"
       (reference "R1") (unit 1) (value "44.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -876,6 +838,9 @@
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/a978eb08-a300-4f1d-baf1-f44381cb1e97"
       (reference "D2") (unit 1) (value "LED_Red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/f20690d7-ea35-42bc-bc13-eada977dc558"
+      (reference "FB2") (unit 1) (value "100 @ 100 MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
+    )
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/89774ec3-d57d-4830-aa14-5b164b2f90b2"
       (reference "FB3") (unit 1) (value "18 @100Mhz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
@@ -891,11 +856,8 @@
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/bb7ef273-2884-4293-aeea-82c4104e55c5"
       (reference "L4") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/095c03a1-2661-4bbf-a680-779d2ea9138a"
-      (reference "L5") (unit 1) (value "39n") (footprint "Inductor_SMD:L_0402_1005Metric")
-    )
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/d8465388-ac22-48f4-b9ae-096aa3087a58"
-      (reference "R18") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R18") (unit 1) (value "47") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/84c8e622-8cd5-4d34-be56-9c59cad97af8"
       (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -926,9 +888,6 @@
     )
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/d6e9bfa4-7cbc-466f-bb41-9f9ba405118b"
       (reference "S1") (unit 1) (value "TL1105CF160Q") (footprint "SamacSys_Parts:TL1105CF160Q")
-    )
-    (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/0dcce734-8291-4c13-a677-155f14178197"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/9a9f1666-918f-4f2c-af79-4cac717b768c/1851d148-7b56-4a22-b7f5-8db303f52234"
       (reference "Y1") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
