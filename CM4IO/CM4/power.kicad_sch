@@ -1091,12 +1091,12 @@
   (junction (at 137.6172 61.976) (diameter 1.016) (color 0 0 0 0))
   (junction (at 163.2712 31.496) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 152.8572 51.816))
   (no_connect (at 152.8572 54.356))
   (no_connect (at 152.8572 36.576))
-  (no_connect (at 152.8572 41.656))
   (no_connect (at 152.8572 39.116))
   (no_connect (at 152.8572 44.196))
-  (no_connect (at 152.8572 51.816))
+  (no_connect (at 152.8572 41.656))
 
   (wire (pts (xy 22.86 101.4476) (xy 29.21 101.4476))
     (stroke (width 0) (type solid) (color 0 0 0 0))

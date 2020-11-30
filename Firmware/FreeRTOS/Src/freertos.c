@@ -220,7 +220,7 @@ void computeFFT(void)
 
 void vProducer(void const * argument)
 {
-	mountSD();
+	//mountSD();
 	for(;;)
 	{		
 		prodEvent = osSignalWait(0x01, osWaitForever);
