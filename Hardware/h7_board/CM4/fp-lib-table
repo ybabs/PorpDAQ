@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/CM4IO/libraries/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/mogun/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_external_adc/libraries/REF3433IDBVR/footprints.pretty")(options "")(descr ""))
+)

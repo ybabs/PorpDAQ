@@ -1,0 +1,14 @@
+core_cm7.h:2464:22:SCB_InvalidateDCache_by_Addr	32	static,ignoring_inline_asm
+freertos.c:128:6:vApplicationGetIdleTaskMemory	24	static
+freertos.c:142:6:MX_FREERTOS_Init	88	static
+freertos.c:155:6:mountSDCard	8	static
+freertos.c:172:6:setFileName	8	static
+freertos.c:182:6:startADC	8	static
+freertos.c:191:6:stopADC	8	static
+freertos.c:199:6:vProducer	40	static
+freertos.c:215:6:Error	8	static
+freertos.c:220:6:vConsumer	48	static
+freertos.c:262:6:computeFFT	24	static
+freertos.c:308:6:HAL_ADC_ConvHalfCpltCallback	16	static
+freertos.c:324:6:HAL_ADC_ConvCpltCallback	16	static
+freertos.c:338:6:HAL_UART_RxCpltCallback	16	static

@@ -1,0 +1,58 @@
+Comment,Designator,Footprint,LCSC Part #
+"100p Unpolarized capacitor, small symbol","C1,C2,C3,C4",C_0402_1005Metric,C1546
+"10p Unpolarized capacitor, small symbol",C5,C_0402_1005Metric,C32949
+"10u Unpolarized capacitor, small symbol","C6,C7,C9",C_0805_2012Metric, C15850
+"100n Unpolarized capacitor, small symbol",C8,C_0805_2012Metric,C49678
+"10u x5R 25V Unpolarized capacitor, small symbol",C10,C_1210_3225Metric, C39232
+"22u x7R 10V Unpolarized capacitor, small symbol",C11,C_1210_3225Metric, C268020
+"1u Unpolarized capacitor, small symbol",C12,C_0805_2012Metric,C28323
+"4.7u Polarized capacitor, small symbol",C13,CP_EIA-3216-18_Kemet-A,C7187
+"100n Unpolarized capacitor, small symbol","C14,C16,C17,C18,C20,C21,C24,C26,C50",C_0402_1005Metric,C1525
+"2.2u Unpolarized capacitor, small symbol","C15,C19",C_1206_3216Metric,C50254
+"100n X7R Unpolarized capacitor, small symbol",C22,C_0603_1608Metric,C14663
+"1u Polarized capacitor, small symbol","C23,C25",CP_EIA-3216-18_Kemet-A,C7176
+"1u Unpolarized capacitor, small symbol",C27,C_0603_1608Metric,C15849
+"10u Unpolarized capacitor, small symbol",C28,C_0603_1608Metric,C19702
+"47p Unpolarized capacitor, small symbol",C29,C_0402_1005Metric, C1567
+"12p Unpolarized capacitor, small symbol","C48,C49",C_0402_1005Metric, C1547
+"LED_Red Light emitting diode, small symbol",D2,LED_0603_1608Metric,C2286
+LED Light emitting diode,D3,LED_0603_1608Metric,C72043
+"Polyfuse Resettable fuse, polymeric positive temperature coefficient",F1,Fuse_1206_3216Metric,C369159
+"600 @ 100MHz Ferrite bead, small symbol",FB1,L_0805_2012Metric,C1017
+"100 @ 100 MHz Ferrite bead, small symbol",FB2,L_0603_1608Metric,C74325
+"OPA659IDBVR Wideband, Unity-Gain Stable, JFET-Input OPERATIONAL AMPLIFIER","IC1,IC2",SOT95P280X145-5N,
+"LMH6643MAX_NOPB Dual Channel, Low Power, 130MHz, 75mA Rail-to-Rail Output Amplifier",IC3,SOIC127P600X175-8N,
+"TPS65133DPDR Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply",IC4,SON45P300X300X80-13N-D, C134100
+"TPS62111RSAT 3.3-V, 1.5-A, 17-V Vin Step-Down Converter in QFN-16",IC5,QFN65P400X400X100-17N-D,C133855
+"Conn_Coaxial coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",J1,SMA_Wurth_60312002114503_Vertical,
+USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J2,TYPE-C-31-M-12,
+"SWDIO Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J3,PinHeader_2x05_P1.27mm_Vertical,
+Micro_SD_Card Micro SD Card Socket,J4,microSD_HC_Hirose_DM3AT-SF-PEJM5,
+"PREAMP Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J5,PinHeader_1x02_P2.54mm_Horizontal,
+"BIASED OUTPUT Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J6,PinHeader_1x02_P2.54mm_Horizontal,
+"USART Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J7,PinHeader_1x03_P2.54mm_Vertical,
+4.7u Inductor,"L1,L2",L_Coilcraft_XxL4020,
+"6.8u Inductor, small symbol",L3,L_TDK_SLF7032,
+AO3401A 30V P-Channel MOSFET,Q1,SOT95P280X125-3N, C15127
+"44.2k Resistor, small US symbol",R1,R_0402_1005Metric,C25895
+"66.5k Resistor, small US symbol",R2,R_0402_1005Metric,C29381
+"6.34k Resistor, small US symbol",R3,R_0402_1005Metric,C45013
+"35.7k Resistor, small US symbol",R4,R_0402_1005Metric,C26975
+"34.8k Resistor, small US symbol",R5,R_0402_1005Metric,C47493
+"10k Resistor, small symbol","R6,R27",R_0402_1005Metric,C25744
+"187 Resistor, small US symbol","R7,R9",R_0402_1005Metric,C39887
+"2.49k Resistor, small US symbol","R8,R10",R_0402_1005Metric,C25884
+"100k Resistor, small US symbol","R11,R14",R_0603_1608Metric,C25803
+"50k Resistor, small US symbol","R12,R13",R_0603_1608Metric,C23184
+"5.1k Resistor, small symbol","R15,R16",R_1206_3216Metric, C26033
+"1M Resistor, small symbol",R17,R_0805_2012Metric,C17514
+"0 Resistor, small US symbol",R18,R_0402_1005Metric,C17168
+"47 Resistor, small symbol",R20,R_0402_1005Metric, C25118
+"2k2 Resistor, small symbol",R21,R_0603_1608Metric, C4190
+"47k Resistor, small US symbol","R22,R23,R24,R25,R26",R_0402_1005Metric,C25792
+"2.2k Resistor, small symbol",R28,R_0603_1608Metric, C4190
+TL1105CF160Q ,S1,TL1105CF160Q,
+"USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U1,SOT-23-6,C7519
+"STM32H743VITx ARM Cortex-M7 MCU, 2048KB flash, 864KB RAM, 400MHz, 1.7-3.6V, 82 GPIO, LQFP-100",U2,LQFP-100_14x14mm_P0.5mm,
+REF3433IDBVR ,U3,REF3433IDBVR,
+"16MHz Four pin crystal, GND on pins 2 and 4",Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm, C13738

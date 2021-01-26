@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "2020-12-07_21-32-03")(type "Legacy")(uri "C:/Users/mogun/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_external_adc/libraries/REF3433IDBVR/2020-12-07_21-32-03.lib")(options "")(descr ""))
+)

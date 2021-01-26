@@ -1,0 +1,27 @@
+#ifndef UTILS_H_
+#define UTILS_H_
+
+#include <stdio.h>
+#include "stm32h7xx_hal.h"
+
+
+#define UART_TX_BUFFER_SIZE 2052
+#define UART_RX_BUFFER_SIZE 1
+
+
+#define LED4_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_15, GPIO_PIN_SET)
+#define LED4_OFF() HAL_GPIO_WritePin(GPIOI, GPIO_PIN_15, GPIO_PIN_RESET)
+
+#define LED3_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_14, GPIO_PIN_SET)
+#define LED3_OFF() HAL_GPIO_WritePin(GPIOI, GPIO_PIN_14, GPIO_PIN_RESET)
+
+
+#define LED2_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_13, GPIO_PIN_SET)
+#define LED2_OFF() HAL_GPIO_WritePin(GPIOI, GPIO_PIN_13, GPIO_PIN_RESET)
+
+
+#define LED1_ON()  HAL_GPIO_WritePin(GPIOI, GPIO_PIN_12, GPIO_PIN_SET)
+#define LED1_OFF() HAL_GPIO_WritePin(GPIOI, GPIO_PIN_12, GPIO_PIN_RESET)
+
+
+#endif /* UTILS_H_ */
