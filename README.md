@@ -18,7 +18,7 @@ The initial version of the DAQ was based on a STM32F746 chip and had a 400 KHz s
 Rev 2 board comes with some improvements namely the the use of the STM32H743 chip, USB-C for power with the addition of a full speed interface. 500 KHz sample rate, SD Card write speed of ~35 Mbps with a 16-bit ADC and better SNR. Also slightly smaller footprint 
 <br />
 <p align="left">
-<img src="img/PorpDAQ_H7.png" width = 420 />
+<img src="img/PorpDAQ_H7.png" width = 410 />
 </p>
 
 This repository mostly contains :
