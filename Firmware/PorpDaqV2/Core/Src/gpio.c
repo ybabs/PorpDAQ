@@ -1,40 +1,8 @@
-/**
-  ******************************************************************************
-  * @file    gpio.c
-  * @brief   This file provides code for the configuration
-  *          of all used GPIO pins.
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
-  *
-  ******************************************************************************
-  */
-
-/* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
 
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
-
-/*----------------------------------------------------------------------------*/
-/* Configure GPIO                                                             */
-/*----------------------------------------------------------------------------*/
-/* USER CODE BEGIN 1 */
-
-/* USER CODE END 1 */
-
-/** Configure pins
-     PH0-OSC_IN (PH0)   ------> RCC_OSC_IN
-     PH1-OSC_OUT (PH1)   ------> RCC_OSC_OUT
-*/
+/**
+ * @brief Initialise GPIO Pins
+ */
 void MX_GPIO_Init(void)
 {
 
@@ -50,7 +18,7 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LED_STAT_GPIO_Port, LED_STAT_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PtPin */
+  /*Configure GPIO LED pin*/
   GPIO_InitStruct.Pin = LED_STAT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -58,9 +26,3 @@ void MX_GPIO_Init(void)
   HAL_GPIO_Init(LED_STAT_GPIO_Port, &GPIO_InitStruct);
 
 }
-
-/* USER CODE BEGIN 2 */
-
-/* USER CODE END 2 */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

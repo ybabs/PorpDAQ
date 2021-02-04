@@ -1,39 +1,20 @@
-/**
-  ******************************************************************************
-  * @file    adc.c
-  * @brief   This file provides code for the configuration
-  *          of the ADC instances.
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
-  *
-  ******************************************************************************
-  */
-
-/* Includes ------------------------------------------------------------------*/
 #include "adc.h"
 
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
 
 ADC_HandleTypeDef hadc3;
 DMA_HandleTypeDef hdma_adc3;
 
-/* ADC3 init function */
+/**
+ * @brief ADC3 Initialisation function
+ * LQFP100 Package has a max frequency of 19MHz.
+ *
+ */
 void MX_ADC3_Init(void)
 {
   ADC_ChannelConfTypeDef sConfig = {0};
 
   /** Common config
-  */
+   */
   hadc3.Instance = ADC3;
   hadc3.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV8;
   hadc3.Init.Resolution = ADC_RESOLUTION_16B;
@@ -54,7 +35,11 @@ void MX_ADC3_Init(void)
     Error_Handler();
   }
   /** Configure Regular Channel
-  */
+   */
+  // BGA Package can sample for at least 16.5 cycles to
+  // still be within the limit for 500Khz. This chip apparently
+  // won't sample correctly at anything less than 2.5 cycles
+  // Sampling time
   sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_REGULAR_RANK_1;
   sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
@@ -74,16 +59,14 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
 
   if(adcHandle->Instance==ADC3)
   {
-  /* USER CODE BEGIN ADC3_MspInit 0 */
-
-  /* USER CODE END ADC3_MspInit 0 */
     /* ADC3 clock enable */
     __HAL_RCC_ADC3_CLK_ENABLE();
 
     __HAL_RCC_GPIOC_CLK_ENABLE();
     /**ADC3 GPIO Configuration
     PC2_C     ------> ADC3_INP0
-    */
+    Use a direct channel for fastest ADC channel
+     */
     HAL_SYSCFG_AnalogSwitchConfig(SYSCFG_SWITCH_PC2, SYSCFG_SWITCH_PC2_OPEN);
 
     /* ADC3 DMA Init */
@@ -108,9 +91,6 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
     /* ADC3 interrupt Init */
     HAL_NVIC_SetPriority(ADC3_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(ADC3_IRQn);
-  /* USER CODE BEGIN ADC3_MspInit 1 */
-
-  /* USER CODE END ADC3_MspInit 1 */
   }
 }
 
@@ -119,9 +99,6 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 
   if(adcHandle->Instance==ADC3)
   {
-  /* USER CODE BEGIN ADC3_MspDeInit 0 */
-
-  /* USER CODE END ADC3_MspDeInit 0 */
     /* Peripheral clock disable */
     __HAL_RCC_ADC3_CLK_DISABLE();
 
@@ -130,14 +107,5 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 
     /* ADC3 interrupt Deinit */
     HAL_NVIC_DisableIRQ(ADC3_IRQn);
-  /* USER CODE BEGIN ADC3_MspDeInit 1 */
-
-  /* USER CODE END ADC3_MspDeInit 1 */
   }
 }
-
-/* USER CODE BEGIN 1 */
-
-/* USER CODE END 1 */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

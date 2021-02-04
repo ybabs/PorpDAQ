@@ -62,8 +62,8 @@ all: main-build
 main-build: PorpDaq_V2.elf secondary-outputs
 
 # Tool invocations
-PorpDaq_V2.elf: $(OBJS) $(USER_OBJS) C:\Users\Home\STM32CubeIDE\workspace_1.1.0\PorpDaq_V2\STM32H743ZITX_FLASH.ld
-	arm-none-eabi-gcc -o "PorpDaq_V2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\Home\STM32CubeIDE\workspace_1.1.0\PorpDaq_V2\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PorpDaq_V2.map" -Wl,--gc-sections -static -L"C:\Users\Home\STM32CubeIDE\workspace_1.1.0\PorpDaq_V2\libs" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PorpDaq_V2.elf: $(OBJS) $(USER_OBJS) C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\STM32H743ZITX_FLASH.ld
+	arm-none-eabi-gcc -o "PorpDaq_V2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PorpDaq_V2.map" -Wl,--gc-sections -static -L"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\libs" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

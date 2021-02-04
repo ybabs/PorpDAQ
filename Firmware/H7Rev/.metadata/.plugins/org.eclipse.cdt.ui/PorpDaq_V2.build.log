@@ -1,0 +1,10 @@
+16:35:17 **** Incremental Build of configuration Debug for project PorpDaq_V2 ****
+make -j24 all 
+arm-none-eabi-size   PorpDaq_V2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  86492	    128	 464232	 550852	  867c4	PorpDaq_V2.elf
+Finished building: default.size.stdout
+ 
+
+16:35:17 Build Finished. 0 errors, 0 warnings. (took 365ms)
+
