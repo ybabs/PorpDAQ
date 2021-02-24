@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EMIF06-MSD02N16
+D EMIF06-MSD02N16
+F https://upverter.com/datasheet/dd14abe25c102cc7fdccadb49a97a5967f087691.pdf
+$ENDCMP
+# end doc library

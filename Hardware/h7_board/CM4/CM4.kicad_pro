@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -120,6 +120,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.25,
         0.3,
         0.4,
@@ -132,6 +133,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 1.2,
@@ -314,7 +323,7 @@
       "no_connect_connected": "error",
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "ignore",
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
@@ -397,7 +406,7 @@
   },
   "sheets": [
     [
-      "daaaac2a-b9ef-449a-b990-b3efc5bccdff",
+      "459be312-3689-4746-960b-38b53c51f6ab",
       ""
     ],
     [
