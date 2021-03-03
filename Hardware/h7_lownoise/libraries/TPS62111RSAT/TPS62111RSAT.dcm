@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62111RSAT
+D 3.3-V, 1.5-A, 17-V Vin Step-Down Converter in QFN-16
+K
+F http://www.ti.com/lit/gpn/tps62111
+$ENDCMP
+#
+#End Doc Library

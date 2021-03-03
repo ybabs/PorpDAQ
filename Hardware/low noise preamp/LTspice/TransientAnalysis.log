@@ -1,0 +1,674 @@
+Circuit: * C:\Users\Home\Downloads\DesignFiles\LTspice\TransientAnalysis.asc
+
+WARNING: Less than two connections to node AGND.  This node is used by V7.
+Instance "m:u2:i53:6": Width narrower than recommended for a level 2 MOSFET.
+Instance "m:u2:i53:5": Width narrower than recommended for a level 2 MOSFET.
+Instance "m:u1:i53:6": Width narrower than recommended for a level 2 MOSFET.
+Instance "m:u1:i53:5": Width narrower than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 18.9394%
+Source Step = 26.5152%
+Source Step = 34.0909%
+Source Step = 41.6667%
+Source Step = 49.2424%
+vernier = 0.375
+Source Step = 58.3333%
+Source Step = 65.2936%
+Source Step = 66.0038%
+Source Step = 66.714%
+Source Step = 67.4242%
+Source Step = 68.1345%
+vernier = 0.0351563
+Source Step = 68.8802%
+Source Step = 69.9455%
+Source Step = 71.0109%
+Source Step = 72.0762%
+Source Step = 73.1416%
+Source Step = 74.2069%
+vernier = 0.0527344
+Source Step = 74.5665%
+Source Step = 74.966%
+Source Step = 75.3655%
+Source Step = 75.765%
+Source Step = 76.1645%
+vernier = 0.0197754
+Source Step = 76.7238%
+Source Step = 77.323%
+Source Step = 77.9223%
+Source Step = 78.5215%
+Source Step = 79.1208%
+vernier = 0.0296631
+Source Step = 79.4354%
+Source Step = 79.6601%
+Source Step = 79.8848%
+Source Step = 80.1096%
+Source Step = 80.3343%
+vernier = 0.0111237
+Source Step = 80.6152%
+Source Step = 80.9523%
+Source Step = 81.2893%
+Source Step = 81.6264%
+Source Step = 81.9635%
+vernier = 0.0166855
+Source Step = 82.368%
+Source Step = 82.8736%
+Source Step = 83.3792%
+Source Step = 83.8849%
+Source Step = 84.3905%
+vernier = 0.0250282
+Source Step = 84.7492%
+Source Step = 84.7966%
+Source Step = 84.844%
+Source Step = 84.8914%
+Source Step = 84.9388%
+Source Step = 84.9862%
+vernier = 0.0023464
+Source Step = 85.0573%
+Source Step = 85.1284%
+Source Step = 85.1995%
+Source Step = 85.2706%
+Source Step = 85.3417%
+vernier = 0.00351959
+Source Step = 85.4448%
+Source Step = 85.5514%
+Source Step = 85.6581%
+Source Step = 85.7648%
+Source Step = 85.8714%
+vernier = 0.00527939
+Source Step = 86.0207%
+Source Step = 86.1807%
+Source Step = 86.3407%
+Source Step = 86.5007%
+Source Step = 86.6606%
+vernier = 0.00791909
+Source Step = 86.8766%
+Source Step = 87.1166%
+Source Step = 87.3566%
+Source Step = 87.5965%
+Source Step = 87.8365%
+vernier = 0.0118786
+Source Step = 88.1485%
+Source Step = 88.5084%
+Source Step = 88.8684%
+Source Step = 89.2284%
+Source Step = 89.5883%
+vernier = 0.0178179
+Source Step = 89.7784%
+Source Step = 89.8122%
+Source Step = 89.8459%
+Source Step = 89.8797%
+Source Step = 89.9134%
+vernier = 0.00167043
+Source Step = 89.9488%
+Source Step = 89.9995%
+Source Step = 90.0501%
+Source Step = 90.1007%
+Source Step = 90.1513%
+Source Step = 90.2019%
+Source Step = 90.2525%
+Source Step = 90.3032%
+Source Step = 90.3538%
+vernier = 0.00250565
+Source Step = 90.4196%
+Source Step = 90.4955%
+Source Step = 90.5714%
+Source Step = 90.6474%
+Source Step = 90.7233%
+vernier = 0.00375847
+Source Step = 90.8182%
+Source Step = 90.9321%
+Source Step = 91.046%
+Source Step = 91.1599%
+Source Step = 91.2738%
+vernier = 0.00563771
+Source Step = 91.4105%
+Source Step = 91.5813%
+Source Step = 91.7521%
+Source Step = 91.923%
+Source Step = 92.0938%
+vernier = 0.00845657
+Source Step = 92.2903%
+Source Step = 92.5465%
+Source Step = 92.8028%
+Source Step = 93.0591%
+Source Step = 93.3153%
+vernier = 0.0126848
+Source Step = 93.5299%
+Source Step = 93.626%
+Source Step = 93.7221%
+Source Step = 93.8182%
+Source Step = 93.9143%
+Source Step = 94.0104%
+Source Step = 94.1065%
+Source Step = 94.2026%
+Source Step = 94.2987%
+Source Step = 94.3948%
+Source Step = 94.4909%
+Source Step = 94.587%
+Source Step = 94.6831%
+Source Step = 94.7792%
+Source Step = 94.8753%
+vernier = 0.00475682
+Source Step = 94.9762%
+Source Step = 95.1204%
+Source Step = 95.2645%
+Source Step = 95.4086%
+Source Step = 95.5528%
+Source Step = 95.6969%
+vernier = 0.00713523
+Source Step = 95.9132%
+Source Step = 96.1294%
+Source Step = 96.3456%
+Source Step = 96.5618%
+Source Step = 96.778%
+vernier = 0.0107028
+Source Step = 96.8645%
+Source Step = 96.9456%
+Source Step = 97.0267%
+Source Step = 97.1078%
+Source Step = 97.1888%
+Source Step = 97.2699%
+Source Step = 97.351%
+Source Step = 97.4321%
+Source Step = 97.5132%
+Source Step = 97.5943%
+Source Step = 97.6753%
+Source Step = 97.7564%
+Source Step = 97.8375%
+vernier = 0.00401357
+Source Step = 97.9389%
+Source Step = 98.0605%
+Source Step = 98.1821%
+Source Step = 98.3037%
+Source Step = 98.4253%
+vernier = 0.00602035
+Source Step = 98.5713%
+Source Step = 98.7537%
+Source Step = 98.9362%
+Source Step = 99.1186%
+Source Step = 99.301%
+vernier = 0.00903052
+Source Step = 99.5108%
+Source Step = 99.7845%
+Source Step = 99.9897%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(i21:1)
+Ignoring empty pin current: Ix(i21:4)
+Ignoring empty pin current: Ix(i21:8)
+Ignoring empty pin current: Ix(i21:2)
+Ignoring empty pin current: Ix(i24:1)
+Ignoring empty pin current: Ix(i24:4)
+Ignoring empty pin current: Ix(i24:8)
+Ignoring empty pin current: Ix(i24:2)
+Ignoring empty pin current: Ix(i23:1)
+Ignoring empty pin current: Ix(i23:4)
+Ignoring empty pin current: Ix(i23:8)
+Ignoring empty pin current: Ix(i23:2)
+Ignoring empty pin current: Ix(i22:1)
+Ignoring empty pin current: Ix(i22:4)
+Ignoring empty pin current: Ix(i22:8)
+Ignoring empty pin current: Ix(i22:2)
+Ignoring empty pin current: Ix(i20:1)
+Ignoring empty pin current: Ix(i20:2)
+Ignoring empty pin current: Ix(i20:3)
+Ignoring empty pin current: Ix(i20:4)
+Ignoring empty pin current: Ix(i20:8)
+Ignoring empty pin current: Ix(i20:5)
+Ignoring empty pin current: Ix(i18:1)
+Ignoring empty pin current: Ix(i18:2)
+Ignoring empty pin current: Ix(i18:3)
+Ignoring empty pin current: Ix(i18:4)
+Ignoring empty pin current: Ix(i18:8)
+Ignoring empty pin current: Ix(i18:5)
+Ignoring empty pin current: Ix(i19:1)
+Ignoring empty pin current: Ix(i19:2)
+Ignoring empty pin current: Ix(i19:3)
+Ignoring empty pin current: Ix(i19:4)
+Ignoring empty pin current: Ix(i19:8)
+Ignoring empty pin current: Ix(i19:5)
+Ignoring empty pin current: Ix(i17:1)
+Ignoring empty pin current: Ix(i17:2)
+Ignoring empty pin current: Ix(i17:4)
+Ignoring empty pin current: Ix(i17:8)
+Ignoring empty pin current: Ix(i17:3)
+Ignoring empty pin current: Ix(i16:1)
+Ignoring empty pin current: Ix(i16:2)
+Ignoring empty pin current: Ix(i16:4)
+Ignoring empty pin current: Ix(i16:8)
+Ignoring empty pin current: Ix(i16:3)
+Ignoring empty pin current: Ix(i15:1)
+Ignoring empty pin current: Ix(i15:2)
+Ignoring empty pin current: Ix(i15:4)
+Ignoring empty pin current: Ix(i15:8)
+Ignoring empty pin current: Ix(i15:3)
+Ignoring empty pin current: Ix(i14:1)
+Ignoring empty pin current: Ix(i14:2)
+Ignoring empty pin current: Ix(i14:4)
+Ignoring empty pin current: Ix(i14:8)
+Ignoring empty pin current: Ix(i14:3)
+Ignoring empty pin current: Ix(i13:1)
+Ignoring empty pin current: Ix(i13:2)
+Ignoring empty pin current: Ix(i13:4)
+Ignoring empty pin current: Ix(i13:8)
+Ignoring empty pin current: Ix(i13:3)
+Ignoring empty pin current: Ix(i53:1)
+Ignoring empty pin current: Ix(i53:2)
+Ignoring empty pin current: Ix(i53:11)
+Ignoring empty pin current: Ix(i53:12)
+Ignoring empty pin current: Ix(i53:25)
+Ignoring empty pin current: Ix(i21:sn:1)
+Ignoring empty pin current: Ix(i21:sn:2)
+Ignoring empty pin current: Ix(i21:sn:3)
+Ignoring empty pin current: Ix(i21:sp:1)
+Ignoring empty pin current: Ix(i21:sp:2)
+Ignoring empty pin current: Ix(i21:sp:3)
+Ignoring empty pin current: Ix(i24:sn:1)
+Ignoring empty pin current: Ix(i24:sn:2)
+Ignoring empty pin current: Ix(i24:sn:3)
+Ignoring empty pin current: Ix(i24:sp:1)
+Ignoring empty pin current: Ix(i24:sp:2)
+Ignoring empty pin current: Ix(i24:sp:3)
+Ignoring empty pin current: Ix(i23:sn:1)
+Ignoring empty pin current: Ix(i23:sn:2)
+Ignoring empty pin current: Ix(i23:sn:3)
+Ignoring empty pin current: Ix(i23:sp:1)
+Ignoring empty pin current: Ix(i23:sp:2)
+Ignoring empty pin current: Ix(i23:sp:3)
+Ignoring empty pin current: Ix(i22:sn:1)
+Ignoring empty pin current: Ix(i22:sn:2)
+Ignoring empty pin current: Ix(i22:sn:3)
+Ignoring empty pin current: Ix(i22:sp:1)
+Ignoring empty pin current: Ix(i22:sp:2)
+Ignoring empty pin current: Ix(i22:sp:3)
+Ignoring empty pin current: Ix(i20:i6:1)
+Ignoring empty pin current: Ix(i20:i6:2)
+Ignoring empty pin current: Ix(i20:i6:3)
+Ignoring empty pin current: Ix(i20:i5:1)
+Ignoring empty pin current: Ix(i20:i5:2)
+Ignoring empty pin current: Ix(i20:i5:3)
+Ignoring empty pin current: Ix(i20:i4:1)
+Ignoring empty pin current: Ix(i20:i4:2)
+Ignoring empty pin current: Ix(i20:i4:3)
+Ignoring empty pin current: Ix(i20:i3:1)
+Ignoring empty pin current: Ix(i20:i3:2)
+Ignoring empty pin current: Ix(i20:i3:3)
+Ignoring empty pin current: Ix(i20:i2:1)
+Ignoring empty pin current: Ix(i20:i2:2)
+Ignoring empty pin current: Ix(i20:i2:3)
+Ignoring empty pin current: Ix(i20:i1:1)
+Ignoring empty pin current: Ix(i20:i1:2)
+Ignoring empty pin current: Ix(i20:i1:3)
+Ignoring empty pin current: Ix(i18:i6:1)
+Ignoring empty pin current: Ix(i18:i6:2)
+Ignoring empty pin current: Ix(i18:i6:3)
+Ignoring empty pin current: Ix(i18:i5:1)
+Ignoring empty pin current: Ix(i18:i5:2)
+Ignoring empty pin current: Ix(i18:i5:3)
+Ignoring empty pin current: Ix(i18:i4:1)
+Ignoring empty pin current: Ix(i18:i4:2)
+Ignoring empty pin current: Ix(i18:i4:3)
+Ignoring empty pin current: Ix(i18:i3:1)
+Ignoring empty pin current: Ix(i18:i3:2)
+Ignoring empty pin current: Ix(i18:i3:3)
+Ignoring empty pin current: Ix(i18:i2:1)
+Ignoring empty pin current: Ix(i18:i2:2)
+Ignoring empty pin current: Ix(i18:i2:3)
+Ignoring empty pin current: Ix(i18:i1:1)
+Ignoring empty pin current: Ix(i18:i1:2)
+Ignoring empty pin current: Ix(i18:i1:3)
+Ignoring empty pin current: Ix(i19:i6:1)
+Ignoring empty pin current: Ix(i19:i6:2)
+Ignoring empty pin current: Ix(i19:i6:3)
+Ignoring empty pin current: Ix(i19:i5:1)
+Ignoring empty pin current: Ix(i19:i5:2)
+Ignoring empty pin current: Ix(i19:i5:3)
+Ignoring empty pin current: Ix(i19:i4:1)
+Ignoring empty pin current: Ix(i19:i4:2)
+Ignoring empty pin current: Ix(i19:i4:3)
+Ignoring empty pin current: Ix(i19:i3:1)
+Ignoring empty pin current: Ix(i19:i3:2)
+Ignoring empty pin current: Ix(i19:i3:3)
+Ignoring empty pin current: Ix(i19:i2:1)
+Ignoring empty pin current: Ix(i19:i2:2)
+Ignoring empty pin current: Ix(i19:i2:3)
+Ignoring empty pin current: Ix(i19:i1:1)
+Ignoring empty pin current: Ix(i19:i1:2)
+Ignoring empty pin current: Ix(i19:i1:3)
+Ignoring empty pin current: Ix(i17:i4:1)
+Ignoring empty pin current: Ix(i17:i4:2)
+Ignoring empty pin current: Ix(i17:i4:3)
+Ignoring empty pin current: Ix(i17:i3:1)
+Ignoring empty pin current: Ix(i17:i3:2)
+Ignoring empty pin current: Ix(i17:i3:3)
+Ignoring empty pin current: Ix(i17:i2:1)
+Ignoring empty pin current: Ix(i17:i2:2)
+Ignoring empty pin current: Ix(i17:i2:3)
+Ignoring empty pin current: Ix(i17:i1:1)
+Ignoring empty pin current: Ix(i17:i1:2)
+Ignoring empty pin current: Ix(i17:i1:3)
+Ignoring empty pin current: Ix(i16:i4:1)
+Ignoring empty pin current: Ix(i16:i4:2)
+Ignoring empty pin current: Ix(i16:i4:3)
+Ignoring empty pin current: Ix(i16:i3:1)
+Ignoring empty pin current: Ix(i16:i3:2)
+Ignoring empty pin current: Ix(i16:i3:3)
+Ignoring empty pin current: Ix(i16:i2:1)
+Ignoring empty pin current: Ix(i16:i2:2)
+Ignoring empty pin current: Ix(i16:i2:3)
+Ignoring empty pin current: Ix(i16:i1:1)
+Ignoring empty pin current: Ix(i16:i1:2)
+Ignoring empty pin current: Ix(i16:i1:3)
+Ignoring empty pin current: Ix(i15:i4:1)
+Ignoring empty pin current: Ix(i15:i4:2)
+Ignoring empty pin current: Ix(i15:i4:3)
+Ignoring empty pin current: Ix(i15:i3:1)
+Ignoring empty pin current: Ix(i15:i3:2)
+Ignoring empty pin current: Ix(i15:i3:3)
+Ignoring empty pin current: Ix(i15:i2:1)
+Ignoring empty pin current: Ix(i15:i2:2)
+Ignoring empty pin current: Ix(i15:i2:3)
+Ignoring empty pin current: Ix(i15:i1:1)
+Ignoring empty pin current: Ix(i15:i1:2)
+Ignoring empty pin current: Ix(i15:i1:3)
+Ignoring empty pin current: Ix(i14:i4:1)
+Ignoring empty pin current: Ix(i14:i4:2)
+Ignoring empty pin current: Ix(i14:i4:3)
+Ignoring empty pin current: Ix(i14:i3:1)
+Ignoring empty pin current: Ix(i14:i3:2)
+Ignoring empty pin current: Ix(i14:i3:3)
+Ignoring empty pin current: Ix(i14:i2:1)
+Ignoring empty pin current: Ix(i14:i2:2)
+Ignoring empty pin current: Ix(i14:i2:3)
+Ignoring empty pin current: Ix(i14:i1:1)
+Ignoring empty pin current: Ix(i14:i1:2)
+Ignoring empty pin current: Ix(i14:i1:3)
+Ignoring empty pin current: Ix(i13:i4:1)
+Ignoring empty pin current: Ix(i13:i4:2)
+Ignoring empty pin current: Ix(i13:i4:3)
+Ignoring empty pin current: Ix(i13:i3:1)
+Ignoring empty pin current: Ix(i13:i3:2)
+Ignoring empty pin current: Ix(i13:i3:3)
+Ignoring empty pin current: Ix(i13:i2:1)
+Ignoring empty pin current: Ix(i13:i2:2)
+Ignoring empty pin current: Ix(i13:i2:3)
+Ignoring empty pin current: Ix(i13:i1:1)
+Ignoring empty pin current: Ix(i13:i1:2)
+Ignoring empty pin current: Ix(i13:i1:3)
+Ignoring empty pin current: Ix(i76:1)
+Ignoring empty pin current: Ix(i76:2)
+Ignoring empty pin current: Ix(i76:3)
+Ignoring empty pin current: Ix(i75:1)
+Ignoring empty pin current: Ix(i75:2)
+Ignoring empty pin current: Ix(i75:3)
+Ignoring empty pin current: Ix(i74:1)
+Ignoring empty pin current: Ix(i74:2)
+Ignoring empty pin current: Ix(i74:3)
+Ignoring empty pin current: Ix(u1:g0)
+Ignoring empty pin current: Ix(u1:g1)
+Ignoring empty pin current: Ix(u1:g2)
+Ignoring empty pin current: Ix(u2:g0)
+Ignoring empty pin current: Ix(u2:g1)
+Ignoring empty pin current: Ix(u2:g2)
+Ignoring empty pin current: Ix(i21:1)
+Ignoring empty pin current: Ix(i21:4)
+Ignoring empty pin current: Ix(i21:8)
+Ignoring empty pin current: Ix(i21:2)
+Ignoring empty pin current: Ix(i24:1)
+Ignoring empty pin current: Ix(i24:4)
+Ignoring empty pin current: Ix(i24:8)
+Ignoring empty pin current: Ix(i24:2)
+Ignoring empty pin current: Ix(i23:1)
+Ignoring empty pin current: Ix(i23:4)
+Ignoring empty pin current: Ix(i23:8)
+Ignoring empty pin current: Ix(i23:2)
+Ignoring empty pin current: Ix(i22:1)
+Ignoring empty pin current: Ix(i22:4)
+Ignoring empty pin current: Ix(i22:8)
+Ignoring empty pin current: Ix(i22:2)
+Ignoring empty pin current: Ix(i20:1)
+Ignoring empty pin current: Ix(i20:2)
+Ignoring empty pin current: Ix(i20:3)
+Ignoring empty pin current: Ix(i20:4)
+Ignoring empty pin current: Ix(i20:8)
+Ignoring empty pin current: Ix(i20:5)
+Ignoring empty pin current: Ix(i18:1)
+Ignoring empty pin current: Ix(i18:2)
+Ignoring empty pin current: Ix(i18:3)
+Ignoring empty pin current: Ix(i18:4)
+Ignoring empty pin current: Ix(i18:8)
+Ignoring empty pin current: Ix(i18:5)
+Ignoring empty pin current: Ix(i19:1)
+Ignoring empty pin current: Ix(i19:2)
+Ignoring empty pin current: Ix(i19:3)
+Ignoring empty pin current: Ix(i19:4)
+Ignoring empty pin current: Ix(i19:8)
+Ignoring empty pin current: Ix(i19:5)
+Ignoring empty pin current: Ix(i17:1)
+Ignoring empty pin current: Ix(i17:2)
+Ignoring empty pin current: Ix(i17:4)
+Ignoring empty pin current: Ix(i17:8)
+Ignoring empty pin current: Ix(i17:3)
+Ignoring empty pin current: Ix(i16:1)
+Ignoring empty pin current: Ix(i16:2)
+Ignoring empty pin current: Ix(i16:4)
+Ignoring empty pin current: Ix(i16:8)
+Ignoring empty pin current: Ix(i16:3)
+Ignoring empty pin current: Ix(i15:1)
+Ignoring empty pin current: Ix(i15:2)
+Ignoring empty pin current: Ix(i15:4)
+Ignoring empty pin current: Ix(i15:8)
+Ignoring empty pin current: Ix(i15:3)
+Ignoring empty pin current: Ix(i14:1)
+Ignoring empty pin current: Ix(i14:2)
+Ignoring empty pin current: Ix(i14:4)
+Ignoring empty pin current: Ix(i14:8)
+Ignoring empty pin current: Ix(i14:3)
+Ignoring empty pin current: Ix(i13:1)
+Ignoring empty pin current: Ix(i13:2)
+Ignoring empty pin current: Ix(i13:4)
+Ignoring empty pin current: Ix(i13:8)
+Ignoring empty pin current: Ix(i13:3)
+Ignoring empty pin current: Ix(i53:1)
+Ignoring empty pin current: Ix(i53:2)
+Ignoring empty pin current: Ix(i53:11)
+Ignoring empty pin current: Ix(i53:12)
+Ignoring empty pin current: Ix(i53:25)
+Ignoring empty pin current: Ix(i21:sn:1)
+Ignoring empty pin current: Ix(i21:sn:2)
+Ignoring empty pin current: Ix(i21:sn:3)
+Ignoring empty pin current: Ix(i21:sp:1)
+Ignoring empty pin current: Ix(i21:sp:2)
+Ignoring empty pin current: Ix(i21:sp:3)
+Ignoring empty pin current: Ix(i24:sn:1)
+Ignoring empty pin current: Ix(i24:sn:2)
+Ignoring empty pin current: Ix(i24:sn:3)
+Ignoring empty pin current: Ix(i24:sp:1)
+Ignoring empty pin current: Ix(i24:sp:2)
+Ignoring empty pin current: Ix(i24:sp:3)
+Ignoring empty pin current: Ix(i23:sn:1)
+Ignoring empty pin current: Ix(i23:sn:2)
+Ignoring empty pin current: Ix(i23:sn:3)
+Ignoring empty pin current: Ix(i23:sp:1)
+Ignoring empty pin current: Ix(i23:sp:2)
+Ignoring empty pin current: Ix(i23:sp:3)
+Ignoring empty pin current: Ix(i22:sn:1)
+Ignoring empty pin current: Ix(i22:sn:2)
+Ignoring empty pin current: Ix(i22:sn:3)
+Ignoring empty pin current: Ix(i22:sp:1)
+Ignoring empty pin current: Ix(i22:sp:2)
+Ignoring empty pin current: Ix(i22:sp:3)
+Ignoring empty pin current: Ix(i20:i6:1)
+Ignoring empty pin current: Ix(i20:i6:2)
+Ignoring empty pin current: Ix(i20:i6:3)
+Ignoring empty pin current: Ix(i20:i5:1)
+Ignoring empty pin current: Ix(i20:i5:2)
+Ignoring empty pin current: Ix(i20:i5:3)
+Ignoring empty pin current: Ix(i20:i4:1)
+Ignoring empty pin current: Ix(i20:i4:2)
+Ignoring empty pin current: Ix(i20:i4:3)
+Ignoring empty pin current: Ix(i20:i3:1)
+Ignoring empty pin current: Ix(i20:i3:2)
+Ignoring empty pin current: Ix(i20:i3:3)
+Ignoring empty pin current: Ix(i20:i2:1)
+Ignoring empty pin current: Ix(i20:i2:2)
+Ignoring empty pin current: Ix(i20:i2:3)
+Ignoring empty pin current: Ix(i20:i1:1)
+Ignoring empty pin current: Ix(i20:i1:2)
+Ignoring empty pin current: Ix(i20:i1:3)
+Ignoring empty pin current: Ix(i18:i6:1)
+Ignoring empty pin current: Ix(i18:i6:2)
+Ignoring empty pin current: Ix(i18:i6:3)
+Ignoring empty pin current: Ix(i18:i5:1)
+Ignoring empty pin current: Ix(i18:i5:2)
+Ignoring empty pin current: Ix(i18:i5:3)
+Ignoring empty pin current: Ix(i18:i4:1)
+Ignoring empty pin current: Ix(i18:i4:2)
+Ignoring empty pin current: Ix(i18:i4:3)
+Ignoring empty pin current: Ix(i18:i3:1)
+Ignoring empty pin current: Ix(i18:i3:2)
+Ignoring empty pin current: Ix(i18:i3:3)
+Ignoring empty pin current: Ix(i18:i2:1)
+Ignoring empty pin current: Ix(i18:i2:2)
+Ignoring empty pin current: Ix(i18:i2:3)
+Ignoring empty pin current: Ix(i18:i1:1)
+Ignoring empty pin current: Ix(i18:i1:2)
+Ignoring empty pin current: Ix(i18:i1:3)
+Ignoring empty pin current: Ix(i19:i6:1)
+Ignoring empty pin current: Ix(i19:i6:2)
+Ignoring empty pin current: Ix(i19:i6:3)
+Ignoring empty pin current: Ix(i19:i5:1)
+Ignoring empty pin current: Ix(i19:i5:2)
+Ignoring empty pin current: Ix(i19:i5:3)
+Ignoring empty pin current: Ix(i19:i4:1)
+Ignoring empty pin current: Ix(i19:i4:2)
+Ignoring empty pin current: Ix(i19:i4:3)
+Ignoring empty pin current: Ix(i19:i3:1)
+Ignoring empty pin current: Ix(i19:i3:2)
+Ignoring empty pin current: Ix(i19:i3:3)
+Ignoring empty pin current: Ix(i19:i2:1)
+Ignoring empty pin current: Ix(i19:i2:2)
+Ignoring empty pin current: Ix(i19:i2:3)
+Ignoring empty pin current: Ix(i19:i1:1)
+Ignoring empty pin current: Ix(i19:i1:2)
+Ignoring empty pin current: Ix(i19:i1:3)
+Ignoring empty pin current: Ix(i17:i4:1)
+Ignoring empty pin current: Ix(i17:i4:2)
+Ignoring empty pin current: Ix(i17:i4:3)
+Ignoring empty pin current: Ix(i17:i3:1)
+Ignoring empty pin current: Ix(i17:i3:2)
+Ignoring empty pin current: Ix(i17:i3:3)
+Ignoring empty pin current: Ix(i17:i2:1)
+Ignoring empty pin current: Ix(i17:i2:2)
+Ignoring empty pin current: Ix(i17:i2:3)
+Ignoring empty pin current: Ix(i17:i1:1)
+Ignoring empty pin current: Ix(i17:i1:2)
+Ignoring empty pin current: Ix(i17:i1:3)
+Ignoring empty pin current: Ix(i16:i4:1)
+Ignoring empty pin current: Ix(i16:i4:2)
+Ignoring empty pin current: Ix(i16:i4:3)
+Ignoring empty pin current: Ix(i16:i3:1)
+Ignoring empty pin current: Ix(i16:i3:2)
+Ignoring empty pin current: Ix(i16:i3:3)
+Ignoring empty pin current: Ix(i16:i2:1)
+Ignoring empty pin current: Ix(i16:i2:2)
+Ignoring empty pin current: Ix(i16:i2:3)
+Ignoring empty pin current: Ix(i16:i1:1)
+Ignoring empty pin current: Ix(i16:i1:2)
+Ignoring empty pin current: Ix(i16:i1:3)
+Ignoring empty pin current: Ix(i15:i4:1)
+Ignoring empty pin current: Ix(i15:i4:2)
+Ignoring empty pin current: Ix(i15:i4:3)
+Ignoring empty pin current: Ix(i15:i3:1)
+Ignoring empty pin current: Ix(i15:i3:2)
+Ignoring empty pin current: Ix(i15:i3:3)
+Ignoring empty pin current: Ix(i15:i2:1)
+Ignoring empty pin current: Ix(i15:i2:2)
+Ignoring empty pin current: Ix(i15:i2:3)
+Ignoring empty pin current: Ix(i15:i1:1)
+Ignoring empty pin current: Ix(i15:i1:2)
+Ignoring empty pin current: Ix(i15:i1:3)
+Ignoring empty pin current: Ix(i14:i4:1)
+Ignoring empty pin current: Ix(i14:i4:2)
+Ignoring empty pin current: Ix(i14:i4:3)
+Ignoring empty pin current: Ix(i14:i3:1)
+Ignoring empty pin current: Ix(i14:i3:2)
+Ignoring empty pin current: Ix(i14:i3:3)
+Ignoring empty pin current: Ix(i14:i2:1)
+Ignoring empty pin current: Ix(i14:i2:2)
+Ignoring empty pin current: Ix(i14:i2:3)
+Ignoring empty pin current: Ix(i14:i1:1)
+Ignoring empty pin current: Ix(i14:i1:2)
+Ignoring empty pin current: Ix(i14:i1:3)
+Ignoring empty pin current: Ix(i13:i4:1)
+Ignoring empty pin current: Ix(i13:i4:2)
+Ignoring empty pin current: Ix(i13:i4:3)
+Ignoring empty pin current: Ix(i13:i3:1)
+Ignoring empty pin current: Ix(i13:i3:2)
+Ignoring empty pin current: Ix(i13:i3:3)
+Ignoring empty pin current: Ix(i13:i2:1)
+Ignoring empty pin current: Ix(i13:i2:2)
+Ignoring empty pin current: Ix(i13:i2:3)
+Ignoring empty pin current: Ix(i13:i1:1)
+Ignoring empty pin current: Ix(i13:i1:2)
+Ignoring empty pin current: Ix(i13:i1:3)
+Ignoring empty pin current: Ix(i76:1)
+Ignoring empty pin current: Ix(i76:2)
+Ignoring empty pin current: Ix(i76:3)
+Ignoring empty pin current: Ix(i75:1)
+Ignoring empty pin current: Ix(i75:2)
+Ignoring empty pin current: Ix(i75:3)
+Ignoring empty pin current: Ix(i74:1)
+Ignoring empty pin current: Ix(i74:2)
+Ignoring empty pin current: Ix(i74:3)
+Ignoring empty pin current: Ix(u1:g0)
+Ignoring empty pin current: Ix(u1:g1)
+Ignoring empty pin current: Ix(u1:g2)
+Ignoring empty pin current: Ix(u2:g0)
+Ignoring empty pin current: Ix(u2:g1)
+Ignoring empty pin current: Ix(u2:g2)
+
+Date: Fri Feb 19 01:08:14 2021
+Total elapsed time: 4.157 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 29407
+traniter = 5544
+tranpoints = 2146
+accept = 1668
+rejected = 478
+matrix size = 234
+fillins = 393
+solver = Normal
+Thread vector: 26.0/15.7[10] 8.2/4.3[10] 5.8/1.6[10] 0.7/0.8[1]  2592/500
+Matrix Compiler1: 35.74 KB object code size  6.5/2.3/[1.7]
+Matrix Compiler2: 29.97 KB object code size  3.0/3.3/[1.4]
+

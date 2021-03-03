@@ -1,0 +1,43 @@
+* C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Hardware\low noise preamp\LTspice\ACAnalysis.asc
+VIN IN 0 SINE(1.65, -350E-3, 20.6E3) AC 1
+V2 Vp 0 3.3
+V3 Vn 0 0
+V1 Vref 0 1.65
+XSTAGE1 IN OUT1 Vp Vn Vref stagea_bandpassdeliyannisfriendnoposfb_lt6233
+XSTAGE2 OUT1 OUT2 Vp Vn Vref stagec_bandpassdeliyannisfriendnoposfb_lt6233
+XSTAGE3 OUT2 OUT Vp Vn Vref stageb_bandpassdeliyannisfriendnoposfb_lt6233
+
+* block symbol definitions
+.subckt stagea_bandpassdeliyannisfriendnoposfb_lt6233 IN OUT V+ V- REF
+R1 N001 IN 294
+C1 OUT N001 1.2E-9
+R5 OUT N002 4.42E3
+C2 N002 N001 1.2E-9
+R2 N001 REF 1.15E3
+XU1 REF N002 OUT V+ V- NC_01 LT6233
+.ends stagea_bandpassdeliyannisfriendnoposfb_lt6233
+
+.subckt stagec_bandpassdeliyannisfriendnoposfb_lt6233 IN OUT V+ V- REF
+R1 N001 IN 620
+C1 OUT N001 1.5E-9
+R5 OUT N002 8.87E3
+C2 N002 N001 1.5E-9
+R2 N001 REF 130
+XU1 REF N002 OUT V+ V- NC_01 LT6233
+.ends stagec_bandpassdeliyannisfriendnoposfb_lt6233
+
+.subckt stageb_bandpassdeliyannisfriendnoposfb_lt6233 IN OUT V+ V- REF
+R1 N001 IN 620
+C1 OUT N001 1E-9
+R5 OUT N002 8.87E3
+C2 N002 N001 1E-9
+R2 N001 REF 130
+XU1 REF N002 OUT V+ V- NC_01 LT6233
+.ends stageb_bandpassdeliyannisfriendnoposfb_lt6233
+
+.ac dec 100 20594.816896261822 820594.8168962614
+.save V(*?*) I(*?*)
+* If you're having trouble with simulation try the following:\n \n- Ensure that LTspice circuit folder is unzipped.  LTspice won't \nbe able to locate subcircuits if the folders are still zipped.\n \n- Update LTspice - devices that have been recently added to LTspice\nwon't be available unless you update by clicking Tools -> Sync Release.
+.lib LTC2.LIB
+.backanno
+.end

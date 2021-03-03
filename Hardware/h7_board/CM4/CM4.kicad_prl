@@ -62,7 +62,7 @@
       38
     ],
     "visible_layers": "ffdfdff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "CM4.kicad_prl",

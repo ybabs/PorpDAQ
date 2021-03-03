@@ -68,7 +68,7 @@
 		<xsl:text>","</xsl:text>
 		
 		<xsl:value-of select="footprint"/><xsl:text>","</xsl:text>
-		<xsl:value-of select="fields/field[@name='LCSC']"/><xsl:text>"</xsl:text>
+		<xsl:value-of select="fields/field[@name='LCSC Part #']"/><xsl:text>"</xsl:text>
 	    </xsl:for-each>
 	</xsl:template>
 

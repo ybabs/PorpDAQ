@@ -1292,7 +1292,6 @@
     )
   )
 
-
   (junction (at 29.6164 36.83) (diameter 1.016) (color 0 0 0 0))
   (junction (at 33.4264 36.83) (diameter 1.016) (color 0 0 0 0))
   (junction (at 35.9664 36.83) (diameter 1.016) (color 0 0 0 0))
@@ -1319,8 +1318,8 @@
   (junction (at 237.0328 103.7844) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 243.6368 103.7844) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 153.162 53.594))
   (no_connect (at 153.162 56.134))
+  (no_connect (at 153.162 53.594))
 
   (wire (pts (xy 25.8064 36.83) (xy 29.6164 36.83))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2303,7 +2302,7 @@
     (property "Datasheet" "~" (id 3) (at 36.7792 99.9744 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C15849" (id 4) (at 36.7792 99.9744 0)
+    (property "LCSC Part #" "C19702" (id 4) (at 36.7792 99.9744 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2443,7 +2442,7 @@
     (property "Datasheet" "~" (id 3) (at 131.0132 99.9744 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C15849" (id 4) (at 131.0132 99.9744 0)
+    (property "LCSC Part #" "C19702" (id 4) (at 131.0132 99.9744 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2676,6 +2675,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 141.732 40.894 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" " C165948" (id 4) (at 137.922 40.894 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "REF3433DBVR")(type "Legacy")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/REF3433IDBVR/2020-12-07_21-32-03.lib")(options "")(descr ""))
+  (lib (name "EMIF06")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/EMIF06HSD03F3/EMIF06.kicad_sym")(options "")(descr ""))
+  (lib (name "EMIF06MSD02N16")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/EMIF06-MSD02N16/eec.kicad_sym")(options "")(descr ""))
+)

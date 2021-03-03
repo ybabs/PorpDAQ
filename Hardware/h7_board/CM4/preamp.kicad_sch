@@ -1082,6 +1082,9 @@
     (property "Datasheet" "~" (id 3) (at 45.3136 160.274 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "C7171" (id 4) (at 45.3136 160.274 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 32.7152 160.5788 180) (unit 1)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "REF3433")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/REF3433IDBVR/footprints.pretty")(options "")(descr ""))
+  (lib (name "EMIF06")(type "KiCad")(uri "C:/Users/Home/OneDrive/PhD/Phocoena-DAQ/Hardware/h7_board/libraries/EMIF06HSD03F3/footprints.pretty")(options "")(descr ""))
+)
