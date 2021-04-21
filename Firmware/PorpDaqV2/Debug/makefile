@@ -1,5 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
 ################################################################################
 
 -include ../makefile.init
@@ -36,49 +37,55 @@ endif
 
 -include ../makefile.defs
 
-BUILD_ARTIFACT_NAME := PorpDaq_V2
+OPTIONAL_TOOL_DEPS := \
+$(wildcard ../makefile.defs) \
+$(wildcard ../makefile.init) \
+$(wildcard ../makefile.targets) \
+
+
+BUILD_ARTIFACT_NAME := PorpDAQV2
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX := 
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME).$(BUILD_ARTIFACT_EXTENSION)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-PorpDaq_V2.elf \
+PorpDAQV2.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-PorpDaq_V2.list \
+PorpDAQV2.list \
 
 OBJCOPY_BIN += \
-PorpDaq_V2.bin \
+PorpDAQV2.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: PorpDaq_V2.elf secondary-outputs
+main-build: PorpDAQV2.elf secondary-outputs
 
 # Tool invocations
-PorpDaq_V2.elf: $(OBJS) $(USER_OBJS) C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\STM32H743ZITX_FLASH.ld
-	arm-none-eabi-gcc -o "PorpDaq_V2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PorpDaq_V2.map" -Wl,--gc-sections -static -L"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDaqV2\libs" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PorpDAQV2.elf: $(OBJS) $(USER_OBJS) C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDAQV2\STM32H743VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "PorpDAQV2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDAQV2\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PorpDAQV2.map" -Wl,--gc-sections -static -Wl,--start-group -larm_cortexM7lfsp_math -Wl,--end-group -L"C:\Users\Home\OneDrive\PhD\Phocoena-DAQ\Firmware\PorpDAQV2\libs" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-default.size.stdout: $(EXECUTABLES)
+default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-size  $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-PorpDaq_V2.list: $(EXECUTABLES)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "PorpDaq_V2.list"
+PorpDAQV2.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "PorpDAQV2.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-PorpDaq_V2.bin: $(EXECUTABLES)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "PorpDaq_V2.bin"
+PorpDAQV2.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "PorpDAQV2.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 

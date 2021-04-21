@@ -1,3 +1,3 @@
-wav.c:3:10:WavHeaderUpdate	32	static
-wav.c:28:10:InitialiseWavEncoder	24	static
-wav.c:57:10:ProcessWavHeader	16	static
+wav.c:3:11:WavHeaderUpdate	32	static
+wav.c:28:11:InitialiseWavEncoder	24	static
+wav.c:57:11:ProcessWavHeader	16	static

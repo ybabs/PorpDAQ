@@ -13,7 +13,7 @@
 "Core/Src/tim.o"
 "Core/Src/usart.o"
 "Core/Src/wav.o"
-"Core/Startup/startup_stm32h743zitx.o"
+"Core/Startup/startup_stm32h743vitx.o"
 "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
 "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o"
 "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o"

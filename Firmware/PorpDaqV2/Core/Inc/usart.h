@@ -35,7 +35,6 @@ extern UART_HandleTypeDef huart8;
 
 /* USER CODE BEGIN Private defines */
 extern uint8_t uart_rx_buffer;
-
 /* USER CODE END Private defines */
 
 void MX_UART8_Init(void);
