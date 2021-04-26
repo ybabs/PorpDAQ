@@ -28,6 +28,9 @@ This repository mostly contains :
    - 3D designed case for the Rev 1 board 
    - Low level drivers and firmware (bare-metal version and FreeRTOS version for Rev1 and FreeRTOS version for Rev2)
 
+## Note Rev2.1 now included as well.
+  - 3.3V regulator on Rev 2 used a switcher and wasn't running in low noise mode (oops!) so 2.1 now uses a low noise ADP7156 3.3V regulator
+
 ## Structure
  - Firmware: Contains Custom Board FreeRTOS firmware and STM32F7 discovery board FreeRTOS and bare-metal firmware. Also contains H747 Disco Board firmware.  Please note bare-metal firmware currently has a UART TX bug preventing data from being transmmitted over the UART line.
  - Hardware: contains various designs and schematics for the board designs. **Rev 1** design is named `board_100pin` while  **Rev 2** design is named `h7_board`. 
